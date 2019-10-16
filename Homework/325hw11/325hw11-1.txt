@@ -1,0 +1,74 @@
+Alex Childers
+CS 325 - Homework 11 - Problem 1
+Last modified: December 4, 2018
+
+
+Problem 1-1: Transaction T1 has an exclusive lock on data item A, and has 
+requested, and is waiting for, a shared lock on data item B. But, T2 has an 
+exclusive lock on data item B, and has requested, and is waiting for, an 
+exclusive lock on data item A. What is this situation an illustration of?
+-------------------------------------------------------------------------------
+This situation is an illustration of deadlock. 
+
+
+Problem 1-2: If the DBMS were to not permit one of these transactions to 
+perform a desired action, what would it subsequently do to that transaction? 
+-------------------------------------------------------------------------------
+The DBMS would subsequently abort, roll back, and restart the transaction with
+a bigger timestamp.
+
+
+Problem 1-3: Transaction T1, with timestamp 18, wishes to write a data item A, 
+and the DBMS discovers that this data item was last read by a transaction with 
+timestamp 8 (R-ts(A) = 8), and last written by a transaction with timestamp 7 
+(W-ts(A) = 7). Will the DBMS permit T1 to perform this action? Give R-ts(A) and 
+W-ts(A) after this. (There should be three parts in your answer, then: will it 
+be permitted, what is R-ts(A) afterwards, and what is W-ts(A) afterwards...)
+-------------------------------------------------------------------------------
+Yes, the DBMS will permit T1 to perform this action.  
+R-ts(A) = 8 afterwards.
+W-ts(A) = 18 afterwards.
+
+
+Problem 1-4: Transaction T2, with timestamp 19, wishes to write a data item B, 
+and the DBMS discovers that this data item was last read by a transaction with 
+timestamp 22 (R-ts(B) = 22), and last written by a transaction with timestamp 
+21 (W-ts(B) = 21). Will the DBMS permit T2 to perform this action? Give the 
+R-ts(B) and the W-ts(B) after this.
+-------------------------------------------------------------------------------
+No, the DBMS will not permit T2 to perform this action. 
+R-ts(B) = 22
+W-ts(B) = 21
+
+
+Problem 1-5: Transaction T3, with timestamp 13, wishes to read a data item C, 
+and the DBMS discovered that this data item was last read by a transaction with 
+timestamp 17 (R-ts(C) = 17), and last written by a transaction with timestamp 
+12 (W-ts(C) = 12). Will the DBMS permit T3 to perform this action? Give R-ts(C) 
+and W-ts(C) after this.
+-------------------------------------------------------------------------------
+Yes, the DBMS will permit T3 to perform this action. 
+R-ts(C) = 17
+W-ts(C) = 12
+
+
+Problem 1-6: Transaction T4, with timestamp 24, wishes to read a data item D, 
+and the DBMS discovers that this data item was last read by a transaction with 
+timestamp 12 (R-ts(D) = 12), and last written by a transaction with timestamp 
+29 (W-ts(D) = 29). Will the DBMS permit T4 to perform this action? Give R-ts(D) 
+and W-ts(D) after this.
+-------------------------------------------------------------------------------
+No, the DBMS will not permit T4 to perform this action.
+R-ts(D) = 12
+W-ts(D) = 29
+
+
+Problem 1-7: Transaction T5, with timestamp 18, wishes to write a data item E, 
+and the DBMS discovers that this data item was last read by a transaction with 
+timestamp 20 (R-ts(E) = 20), and last written by a transaction with timestamp 
+16 (W-ts(E) = 16). Will the DBMS permit T5 to perform this action? Give R-ts(E) 
+and W-ts(E) after this.
+-------------------------------------------------------------------------------
+No, the DBMS will not permit T5 to perform this action. 
+R-ts(E) = 20
+W-ts(E) = 16

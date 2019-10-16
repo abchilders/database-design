@@ -1,0 +1,875 @@
+======
+Owner:
+======
+
+  OWNER_ID FIRST_NAME           LAST_NAME                                       
+---------- -------------------- --------------------                            
+        10 Maya                 Smith                                           
+        11 Karen                Gearhardt                                       
+        12 Lea                  Krakowski                                       
+        13 Kaisa                Tiryaki                                         
+        14 Romulo               Santiago                                        
+        15 Brecht               Zambrano                                        
+        16 Maisie               Johanneson                                      
+        17 Wanda                Taggart                                         
+        18 Ernie                Smith                                           
+        19 Rudolf               Siskind                                         
+        20 Desmond              Boone                                           
+
+11 rows selected.
+
+================
+Owner_phone_num:
+================
+
+  OWNER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+        10 5185550192                                                           
+        11 4105550133                                                           
+        12 4045550154                                                           
+        13 2075550181                                                           
+        13 5735550120                                                           
+        13 5735550193                                                           
+        14 5125550172                                                           
+        15 2255550101                                                           
+        15 5155550114                                                           
+        16 5125550192                                                           
+        17 7015550197                                                           
+
+  OWNER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+        18 2085550124                                                           
+        18 4025550114                                                           
+        19 6175550188                                                           
+        19 9195550188                                                           
+        20 7755550128                                                           
+
+16 rows selected.
+
+=================
+Owner_email_addr:
+=================
+
+  OWNER_ID EMAIL                                                                
+---------- --------------------------------------------------                   
+        10 mayasmith@webmail.aa                                                 
+        11 gearhardtka@coldmail.net                                             
+        13 kaisa@kaisatiryaki.com                                               
+        13 ktiry12@webmail.aa                                                   
+        14 romsant1@csumed.edu                                                  
+        14 rsantiago@coldmail.net                                               
+        15 therealmothman@webmail.aa                                            
+        16 maisiemae@coldmail.net                                               
+        18 ernie@erniesmith.net                                                 
+        18 oovoojaver@coldmail.net                                              
+        20 dboone@csumed.edu                                                    
+
+11 rows selected.
+
+====
+Pet:
+====
+
+    PET_ID PET_NAME  SEX IS_SPAYED_NEUTERED BIRTHDAY  PET_TYPE     OWNER_ID     
+---------- --------- --- ------------------ --------- ---------- ----------     
+    100000 Kiwi      f   y                            cat                10     
+    100003 Rosie     f   y                  15-NOV-10 dog                11     
+    100006 Chewy     m   n                  02-APR-04 dog                11     
+    100009 Cobain    m   y                  30-SEP-06 cat                12     
+    100012 Gertrude  f   n                            dog                13     
+    100015 Chips     m   y                            dog                13     
+    100018 Katrina   f   y                  12-MAR-12 dog                14     
+    100021 Mambo     m   n                  24-DEC-15 cat                15     
+    100024 Lamar     m   y                  18-JUN-10 dog                16     
+    100027 Huck      m   y                  04-JAN-13 cat                17     
+    100030 Baldy     f   y                  22-OCT-14 cat                18     
+
+    PET_ID PET_NAME  SEX IS_SPAYED_NEUTERED BIRTHDAY  PET_TYPE     OWNER_ID     
+---------- --------- --- ------------------ --------- ---------- ----------     
+    100033 Tofu      f   y                  01-JAN-15 dog                19     
+    100036 Royal     m   y                            dog                20     
+    100039 Rum       f   y                            dog                20     
+    100042 Windsor   m   y                  25-DEC-15 cat                10     
+    100045 Bandit    m   y                  03-DEC-09 cat                12     
+    100048 Layla     f   y                  31-JAN-08 cat                14     
+    100051 Trix      f   y                  05-FEB-10 cat                16     
+    100054 Magnus    m   y                  18-MAR-13 dog                18     
+    100057 Carl      m   y                  02-APR-14 cat                20     
+
+20 rows selected.
+
+=====================
+Pet_vaccine_received:
+=====================
+
+    PET_ID VACCINE_NAME         DATE_RECEIVED                                   
+---------- -------------------- -------------                                   
+    100003 distemper            02-NOV-12                                       
+    100003 rabies               02-NOV-12                                       
+    100006 distemper            04-APR-11                                       
+    100006 rabies               23-MAR-11                                       
+    100009 distemper            31-AUG-05                                       
+    100009 rabies               11-SEP-05                                       
+    100012 distemper            03-JAN-07                                       
+    100012 rabies               27-DEC-06                                       
+    100015 distemper            09-JUN-16                                       
+    100015 rabies               18-JUL-16                                       
+    100018 distemper            29-AUG-10                                       
+
+    PET_ID VACCINE_NAME         DATE_RECEIVED                                   
+---------- -------------------- -------------                                   
+    100018 rabies               19-JUL-10                                       
+    100021 distemper            09-FEB-14                                       
+    100021 rabies               09-FEB-14                                       
+    100024 distemper            18-MAR-16                                       
+    100024 rabies               03-APR-16                                       
+    100027 distemper            16-OCT-11                                       
+    100027 rabies               16-OCT-11                                       
+    100030 distemper            10-MAY-14                                       
+    100030 rabies               13-MAY-14                                       
+    100033 distemper            12-JAN-15                                       
+    100033 rabies               12-JAN-15                                       
+
+    PET_ID VACCINE_NAME         DATE_RECEIVED                                   
+---------- -------------------- -------------                                   
+    100036 distemper            02-AUG-15                                       
+    100036 rabies               25-AUG-15                                       
+    100039 distemper            23-MAR-15                                       
+    100039 rabies               12-APR-15                                       
+    100000 distemper            07-AUG-10                                       
+    100000 rabies               07-AUG-10                                       
+    100045 distemper            03-MAR-10                                       
+    100045 rabies               03-MAR-10                                       
+    100051 distemper            01-AUG-10                                       
+    100051 rabies               01-AUG-10                                       
+    100054 distemper            15-OCT-13                                       
+
+    PET_ID VACCINE_NAME         DATE_RECEIVED                                   
+---------- -------------------- -------------                                   
+    100054 rabies               15-OCT-13                                       
+    100048 distemper            24-MAY-08                                       
+    100048 rabies               24-MAY-08                                       
+    100042 distemper            10-MAR-16                                       
+    100042 rabies               10-MAR-16                                       
+    100057 distemper            18-AUG-14                                       
+    100057 rabies               18-AUG-14                                       
+
+40 rows selected.
+
+======================
+Pet_medication_needed:
+======================
+
+    PET_ID MEDICATION_NAME      DOSAGE                                          
+---------- -------------------- ----------                                      
+    100003 Amoxicillin          50 mg                                           
+    100003 Aspirin              75 mg                                           
+    100006 Tramadol             10 mg                                           
+    100009 Simplicef            10 mg                                           
+    100009 Orbax                5 mg                                            
+    100015 Hydrocodone          1 mg                                            
+    100015 Erythromycin         50 mg                                           
+    100015 Fluconazole          50 mg                                           
+    100027 Trimethoprim         75 mg                                           
+    100036 Melatonin            1 mg                                            
+
+10 rows selected.
+
+=====================
+Pet_diet_restriction:
+=====================
+
+    PET_ID DIET_NEED                                                            
+---------- --------------------                                                 
+    100006 no dairy                                                             
+    100006 wet food only                                                        
+    100009 no chicken                                                           
+    100012 no fish                                                              
+    100012 wet food only                                                        
+    100021 no soy                                                               
+    100024 no wheat                                                             
+    100030 no chicken                                                           
+    100036 no chicken                                                           
+    100036 wet food only                                                        
+
+10 rows selected.
+
+================
+Owner_phone_num:
+================
+
+  OWNER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+        10 5185550192                                                           
+        11 4105550133                                                           
+        12 4045550154                                                           
+        13 2075550181                                                           
+        13 5735550120                                                           
+        13 5735550193                                                           
+        14 5125550172                                                           
+        15 2255550101                                                           
+        15 5155550114                                                           
+        16 5125550192                                                           
+        17 7015550197                                                           
+
+  OWNER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+        18 2085550124                                                           
+        18 4025550114                                                           
+        19 6175550188                                                           
+        19 9195550188                                                           
+        20 7755550128                                                           
+
+16 rows selected.
+
+====
+Cat:
+====
+
+    PET_ID                                                                      
+----------                                                                      
+    100000                                                                      
+    100009                                                                      
+    100021                                                                      
+    100027                                                                      
+    100030                                                                      
+    100042                                                                      
+    100045                                                                      
+    100048                                                                      
+    100051                                                                      
+    100057                                                                      
+
+10 rows selected.
+
+====
+Dog:
+====
+
+    PET_ID PET_SIZE                                                             
+---------- ----------                                                           
+    100003 small                                                                
+    100006 medium                                                               
+    100012 large                                                                
+    100015 small                                                                
+    100018 medium                                                               
+    100024 large                                                                
+    100033 small                                                                
+    100036 medium                                                               
+    100039 large                                                                
+    100054 small                                                                
+
+10 rows selected.
+
+=======
+Worker:
+=======
+
+ WORKER_ID WORKER_TYPE          FIRST_NAME           LAST_NAME                  
+---------- -------------------- -------------------- --------------------       
+    300000 employee             Dua                  Mcknight                   
+    300002 employee             Konrad               Goddard                    
+    300004 employee             Daphne               Villanueva                 
+    300006 employee             Marian               Sosa                       
+    300008 employee             Fannie               Paine                      
+    300010 employee             Tala                 Grey                       
+    300012 employee             Jovan                Gale                       
+    300014 employee             Josef                Finley                     
+    300016 employee             Aubree               Cole                       
+    300018 employee             Scott                Millar                     
+    300020 volunteer            Kara                 Kelley                     
+
+ WORKER_ID WORKER_TYPE          FIRST_NAME           LAST_NAME                  
+---------- -------------------- -------------------- --------------------       
+    300022 volunteer            Blaine               Henderson                  
+    300024 volunteer            Saara                Thorne                     
+    300026 volunteer            Zayden               Powell                     
+    300028 volunteer            Alexis               Li                         
+    300030 volunteer            Loren                Daniel                     
+    300032 volunteer            Stanislaw            Wicks                      
+    300034 volunteer            Prisha               Mills                      
+    300036 volunteer            Hall                 Needham                    
+    300038 volunteer            Claire               Strong                     
+
+20 rows selected.
+
+=================
+Worker_phone_num:
+=================
+
+ WORKER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+    300000 3175550148                                                           
+    300002 3175550152                                                           
+    300002 3175550158                                                           
+    300004 3175550162                                                           
+    300006 3175550113                                                           
+    300006 3175550145                                                           
+    300006 3175550148                                                           
+    300008 6015550190                                                           
+    300010 6015550186                                                           
+    300012 6015550169                                                           
+    300014 6015550161                                                           
+
+ WORKER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+    300016 6015550168                                                           
+    300018 6015550115                                                           
+    300018 9045550128                                                           
+    300020 9045550118                                                           
+    300022 9045550174                                                           
+    300024 9045550114                                                           
+    300024 9045550132                                                           
+    300026 9045550188                                                           
+    300028 5735550115                                                           
+    300030 5735550107                                                           
+    300032 5735550169                                                           
+
+ WORKER_ID PHONE_NUMB                                                           
+---------- ----------                                                           
+    300034 5735550182                                                           
+    300036 5735550156                                                           
+    300038 5735550111                                                           
+
+25 rows selected.
+
+==================
+Worker_email_addr:
+==================
+
+ WORKER_ID EMAIL                                                                
+---------- --------------------------------------------------                   
+    300000 dmcknight@lcpetboarding.net                                          
+    300002 kgoddard@lcpetboarding.net                                           
+    300004 dvillanueva@lcpetboarding.net                                        
+    300006 msosa@lcpetboarding.net                                              
+    300008 fpaine@lcpetboarding.net                                             
+    300010 tgrey@lcpetboarding.net                                              
+    300012 jgale@lcpetboarding.net                                              
+    300014 jfinley@lcpetboarding.net                                            
+    300016 acole@lcpetboarding.net                                              
+    300018 smillar@lcpetboarding.net                                            
+    300020 kara.kelley@webmail.aa                                               
+
+ WORKER_ID EMAIL                                                                
+---------- --------------------------------------------------                   
+    300020 kkelley@coldmail.net                                                 
+    300022 blaineh@webmail.aa                                                   
+    300024 saara.thorne3@webmail.aa                                             
+    300024 sthorne@csumed.edu                                                   
+    300026 zaydenpowell@webmail.aa                                              
+    300028 alexisli@coldmail.net                                                
+    300030 me@lorendaniel.com                                                   
+    300032 stan_wicks@webmail.aa                                                
+    300034 prish44@webmail.aa                                                   
+    300034 prisha.mills@csumed.edu                                              
+    300036 hneedham@webmail.aa                                                  
+
+ WORKER_ID EMAIL                                                                
+---------- --------------------------------------------------                   
+    300036 look@allthosechickens.qw                                             
+    300038 clairestrong@webmail.aa                                              
+
+24 rows selected.
+
+=========
+Employee:
+=========
+
+ WORKER_ID JOB_TITLE                          SALARY START_DATE                 
+---------- ------------------------------ ---------- ----------                 
+    300000 Veterinarian                       3461.5 23-JAN-08                  
+    300002 Groomer                            1538.5 12-FEB-08                  
+    300004 Groomer                              1541 20-MAR-10                  
+    300006 Teacher                              1540 06-APR-11                  
+    300008 Teacher                              1545 01-MAY-12                  
+    300010 Veterinarian                         3455 27-JUN-13                  
+    300012 Animal Care Associate                1155 23-JAN-08                  
+    300014 Animal Care Associate                1154 30-AUG-08                  
+    300016 Animal Care Associate                1153 11-SEP-16                  
+    300018 Animal Care Associate              1150.5 20-OCT-17                  
+
+10 rows selected.
+
+===============================
+Employee_formal_qualifications:
+===============================
+
+ WORKER_ID TRAINING                                                             
+---------- -------------------------------------------------------------------- 
+    300000 Bachelor of Science in Zoology                                       
+    300000 Certificate of Specialization in Canine Health                       
+    300000 Diplomate of the Western University College of Veterinary Medicine   
+    300000 Doctor of Veterinary Medicine                                        
+    300002 Completion of Apprenticeship in Grooming                             
+    300002 General Education Diploma                                            
+    300004 Completion of Apprenticeship in Grooming                             
+    300004 High School Diploma                                                  
+    300004 National Certified Master Groomer                                    
+    300006 High School Diploma                                                  
+    300008 Certified Professional Dog Trainer                                   
+
+ WORKER_ID TRAINING                                                             
+---------- -------------------------------------------------------------------- 
+    300010 Bachelor of Science in Biology                                       
+    300010 Certificate of Accreditation in Feline Organ Systems                 
+    300010 Diplomate of the University of Smithton Veterinary School            
+    300010 Doctor of Veterinary Medicine                                        
+    300012 General Education Diploma                                            
+    300016 Associate of Science in Chemistry                                    
+
+17 rows selected.
+
+==========
+Volunteer:
+==========
+
+ WORKER_ID                                                                      
+----------                                                                      
+    300020                                                                      
+    300022                                                                      
+    300024                                                                      
+    300026                                                                      
+    300028                                                                      
+    300030                                                                      
+    300032                                                                      
+    300034                                                                      
+    300036                                                                      
+    300038                                                                      
+
+10 rows selected.
+
+===============================
+Volunteer_handling_permissions:
+===============================
+
+ WORKER_ID PET_MAY_HANDLE                                                       
+---------- ---------------                                                      
+    300020 cat                                                                  
+    300020 dog                                                                  
+    300022 dog                                                                  
+    300024 cat                                                                  
+    300026 cat                                                                  
+    300026 dog                                                                  
+    300028 cat                                                                  
+    300028 dog                                                                  
+    300030 dog                                                                  
+    300032 cat                                                                  
+    300034 cat                                                                  
+
+ WORKER_ID PET_MAY_HANDLE                                                       
+---------- ---------------                                                      
+    300034 dog                                                                  
+    300036 cat                                                                  
+    300036 dog                                                                  
+    300038 dog                                                                  
+
+15 rows selected.
+
+========
+Service:
+========
+
+SECTION_ID SERVICE_TYPE                                                         
+---------- --------------------                                                 
+B10000     boarding                                                             
+B10001     boarding                                                             
+B10002     boarding                                                             
+B10003     boarding                                                             
+D10004     daycare                                                              
+D10005     daycare                                                              
+D10006     daycare                                                              
+D10007     daycare                                                              
+C10008     class                                                                
+C10009     class                                                                
+C10010     class                                                                
+
+SECTION_ID SERVICE_TYPE                                                         
+---------- --------------------                                                 
+C10011     class                                                                
+C10012     class                                                                
+C10013     class                                                                
+C10014     class                                                                
+C10015     class                                                                
+C10016     class                                                                
+C10017     class                                                                
+
+18 rows selected.
+
+=========================
+Worker_providing_service:
+=========================
+
+ WORKER_ID SERVICE_SECT_ID                                                      
+---------- ----------------                                                     
+    300000 B10000                                                               
+    300000 B10001                                                               
+    300000 B10002                                                               
+    300000 B10003                                                               
+    300002 B10000                                                               
+    300002 B10001                                                               
+    300002 B10002                                                               
+    300002 B10003                                                               
+    300004 D10004                                                               
+    300004 D10005                                                               
+    300004 D10006                                                               
+
+ WORKER_ID SERVICE_SECT_ID                                                      
+---------- ----------------                                                     
+    300004 D10007                                                               
+    300006 C10008                                                               
+    300006 C10009                                                               
+    300006 C10010                                                               
+    300006 C10011                                                               
+    300006 C10012                                                               
+    300008 C10013                                                               
+    300008 C10014                                                               
+    300008 C10015                                                               
+    300008 C10016                                                               
+    300008 C10017                                                               
+
+ WORKER_ID SERVICE_SECT_ID                                                      
+---------- ----------------                                                     
+    300010 D10004                                                               
+    300010 D10005                                                               
+    300010 D10006                                                               
+    300010 D10007                                                               
+    300012 B10000                                                               
+    300012 B10001                                                               
+    300014 B10002                                                               
+    300014 B10003                                                               
+    300016 D10004                                                               
+    300016 D10005                                                               
+    300018 D10006                                                               
+
+ WORKER_ID SERVICE_SECT_ID                                                      
+---------- ----------------                                                     
+    300018 D10007                                                               
+    300020 B10000                                                               
+    300022 B10001                                                               
+    300024 B10002                                                               
+    300026 B10003                                                               
+    300028 B10000                                                               
+    300030 B10001                                                               
+    300032 B10002                                                               
+    300034 B10003                                                               
+    300036 B10000                                                               
+    300038 B10001                                                               
+
+44 rows selected.
+
+======
+Class:
+======
+
+SECTION_ID CLASS_NAME                      FULL_COST                            
+---------- ------------------------------ ----------                            
+C10008     Dog Obedience Training 1              120                            
+C10009     Dog Obedience Training 2              120                            
+C10010     Dog Obedience Training 3              120                            
+C10011     Dog Obedience Training 4              120                            
+C10012     Dog Socialization                     100                            
+C10013     Cat Leash Training                    100                            
+C10014     Taming Cat Behavioral Problems        120                            
+C10015     Building Trust With Your Pet          120                            
+C10016     Puppy Training                        120                            
+C10017     Therapy Dog Training                  120                            
+
+10 rows selected.
+
+=======================
+Pet_permitted_in_class:
+=======================
+
+SECTION_ID PET                                                                  
+---------- ----------                                                           
+C10008     dog                                                                  
+C10009     dog                                                                  
+C10010     dog                                                                  
+C10011     dog                                                                  
+C10012     dog                                                                  
+C10013     cat                                                                  
+C10015     cat                                                                  
+C10015     dog                                                                  
+C10016     dog                                                                  
+C10017     dog                                                                  
+
+10 rows selected.
+
+===================
+Class_session_date:
+===================
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10008     07-JAN-19                                                            
+C10008     14-JAN-19                                                            
+C10008     21-JAN-19                                                            
+C10008     28-JAN-19                                                            
+C10008     04-FEB-19                                                            
+C10008     11-FEB-19                                                            
+C10009     08-JAN-19                                                            
+C10009     15-JAN-19                                                            
+C10009     22-JAN-19                                                            
+C10009     29-JAN-19                                                            
+C10009     05-FEB-19                                                            
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10009     12-FEB-19                                                            
+C10010     09-JAN-19                                                            
+C10010     16-JAN-19                                                            
+C10010     23-JAN-19                                                            
+C10010     30-JAN-19                                                            
+C10010     06-FEB-19                                                            
+C10010     13-FEB-19                                                            
+C10011     10-JAN-19                                                            
+C10011     17-JAN-19                                                            
+C10011     24-JAN-19                                                            
+C10011     31-JAN-19                                                            
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10011     07-FEB-19                                                            
+C10011     14-FEB-19                                                            
+C10012     11-JAN-19                                                            
+C10012     18-JAN-19                                                            
+C10012     25-JAN-19                                                            
+C10012     01-FEB-19                                                            
+C10012     08-FEB-19                                                            
+C10012     15-FEB-19                                                            
+C10013     07-JAN-19                                                            
+C10013     14-JAN-19                                                            
+C10013     21-JAN-19                                                            
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10013     28-JAN-19                                                            
+C10013     04-FEB-19                                                            
+C10013     11-FEB-19                                                            
+C10014     08-JAN-19                                                            
+C10014     15-JAN-19                                                            
+C10014     22-JAN-19                                                            
+C10014     29-JAN-19                                                            
+C10014     05-FEB-19                                                            
+C10014     12-FEB-19                                                            
+C10015     09-JAN-19                                                            
+C10015     16-JAN-19                                                            
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10015     23-JAN-19                                                            
+C10015     30-JAN-19                                                            
+C10015     06-FEB-19                                                            
+C10015     13-FEB-19                                                            
+C10016     10-JAN-19                                                            
+C10016     17-JAN-19                                                            
+C10016     24-JAN-19                                                            
+C10016     31-JAN-19                                                            
+C10016     07-FEB-19                                                            
+C10016     14-FEB-19                                                            
+C10017     11-JAN-19                                                            
+
+SECTION_ID DATE_OF_OCCURRENCE                                                   
+---------- --------------------                                                 
+C10017     18-JAN-19                                                            
+C10017     25-JAN-19                                                            
+C10017     01-FEB-19                                                            
+C10017     08-FEB-19                                                            
+C10017     15-FEB-19                                                            
+
+60 rows selected.
+
+=================
+Class_enrollment:
+=================
+
+ENROLL_NUM   OWNER_ID SECTION_ID DATE_ENROLLED      PET_ID                      
+---------- ---------- ---------- -------------- ----------                      
+   5000000         11 C10008     23-NOV-18          100003                      
+   5000001         12 C10015     01-NOV-18          100009                      
+   5000002         13 C10008     12-NOV-18          100015                      
+   5000003         14 C10015     18-NOV-18          100018                      
+   5000004         15 C10013     04-NOV-18          100021                      
+   5000005         16 C10017     09-NOV-18          100024                      
+   5000006         17 C10013     15-NOV-18          100027                      
+   5000007         18 C10014     19-NOV-18                                      
+   5000008         19 C10009     23-NOV-18          100033                      
+   5000009         20 C10014                                                    
+   5000010         16 C10011     07-DEC-18          100024                      
+
+ENROLL_NUM   OWNER_ID SECTION_ID DATE_ENROLLED      PET_ID                      
+---------- ---------- ---------- -------------- ----------                      
+   5000011         20 C10008     07-DEC-18          100036                      
+   5000012         20 C10009     07-DEC-18          100039                      
+   5000013         18 C10010     07-DEC-18          100054                      
+
+14 rows selected.
+
+=========
+Boarding:
+=========
+
+SECTION_ID BOARDING_CATEGORY    HALF_DAY_COST FULL_DAY_COST                     
+---------- -------------------- ------------- -------------                     
+B10000     Regular (Fixed)                 15            30                     
+B10001     Deluxe (Fixed)                  20            40                     
+B10002     Regular (Not Fixed)             20            38                     
+B10003     Deluxe (Not Fixed)              25            48                     
+
+====================
+Boarding_enrollment:
+====================
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_ENROLLED  START_DATE END_DATE             
+---------- ---------- ---------- -------------- ---------- ---------            
+   5000014     100003 B10000     19-NOV-18      23-DEC-18  31-DEC-18            
+   5000015     100006 B10002     19-NOV-18      14-DEC-18  18-DEC-18            
+   5000016     100012 B10003     28-NOV-18      27-DEC-18  02-JAN-19            
+   5000017     100015 B10001     11-NOV-18      09-DEC-18  13-DEC-18            
+   5000018     100021 B10003     02-NOV-18      28-DEC-18  30-DEC-18            
+   5000019     100033 B10000     30-NOV-18      02-JAN-19  09-JAN-19            
+   5000020     100039 B10001     29-NOV-18      10-DEC-18  13-DEC-18            
+   5000021     100042 B10000                    08-DEC-18  11-DEC-18            
+   5000022     100051 B10001                    19-DEC-18  22-DEC-18            
+   5000023     100003 B10000     19-NOV-18      28-JAN-19  01-FEB-19            
+   5000024     100006 B10002     19-NOV-18      29-JAN-19  02-FEB-19            
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_ENROLLED  START_DATE END_DATE             
+---------- ---------- ---------- -------------- ---------- ---------            
+   5000025     100012 B10003     28-NOV-18      27-JAN-19  03-FEB-19            
+   5000026     100015 B10001     11-NOV-18      28-JAN-19  02-FEB-19            
+   5000027     100021 B10003     02-NOV-18      29-JAN-19  03-FEB-19            
+   5000028     100033 B10000     30-NOV-18      27-JAN-19  02-FEB-19            
+   5000029     100039 B10001     29-NOV-18      28-JAN-19  03-FEB-19            
+
+16 rows selected.
+
+==============
+Doggy_daycare:
+==============
+
+SECTION_ID DAYCARE_CATEGORY     HALF_DAY_COST FULL_DAY_COST                     
+---------- -------------------- ------------- -------------                     
+D10004     Regular (Fixed)                 10            20                     
+D10005     Deluxe (Fixed)                  15            30                     
+D10006     Regular (Not Fixed)             15            28                     
+D10007     Deluxe (Not Fixed)              20            38                     
+
+===================
+Daycare_enrollment:
+===================
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000030     100054 D10004     10-DEC-18        27-NOV-18             830     
+      1700                                                                      
+                                                                                
+   5000031     100054 D10004     11-DEC-18        27-NOV-18             830     
+      1700                                                                      
+                                                                                
+   5000032     100054 D10004     12-DEC-18        27-NOV-18             830     
+      1700                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000033     100054 D10004     13-DEC-18        27-NOV-18             830     
+      1700                                                                      
+                                                                                
+   5000034     100039 D10005     07-DEC-18        01-DEC-18             900     
+      1330                                                                      
+                                                                                
+   5000035     100039 D10005     13-DEC-18        01-DEC-18             900     
+      1330                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000036     100039 D10005     14-DEC-18        01-DEC-18            1000     
+      1500                                                                      
+                                                                                
+   5000037     100012 D10007     13-DEC-18                             1000     
+      1400                                                                      
+                                                                                
+   5000038     100012 D10007     14-DEC-18                             1000     
+      1600                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000039     100012 D10007     16-DEC-18                              900     
+      1700                                                                      
+                                                                                
+   5000040     100003 D10004     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000041     100006 D10006     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000042     100015 D10005     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000043     100018 D10004     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000044     100024 D10005     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000045     100033 D10004     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000046     100036 D10005     13-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000047     100003 D10004     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000048     100006 D10006     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000049     100015 D10005     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000050     100018 D10004     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+
+ENROLL_NUM     PET_ID SECTION_ID DATE_OF_DAYCARE  DATE_ENROLLED  START_TIME     
+---------- ---------- ---------- ---------------- -------------- ----------     
+  END_TIME                                                                      
+----------                                                                      
+   5000051     100024 D10005     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000052     100033 D10004     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+   5000053     100036 D10005     15-DEC-18        07-DEC-18             900     
+      1700                                                                      
+                                                                                
+
+24 rows selected.
+

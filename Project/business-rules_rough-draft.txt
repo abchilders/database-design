@@ -1,0 +1,78 @@
+Business rules (ROUGH DRAFT): 
+* Unless otherwise allowed by a class instructor, there may only	
+be up to 15 people enrolled in any given pet training class at a 
+time. 
+
+* Volunteers must be trained to handle cats and/or dogs before 
+they can walk and play with them. 
+
+* Owners may specify special needs for each pet when they are 
+making an appointment for their pet (e.g. administering 
+medication, grooming instructions), but this is optional. 
+
+Now for some imaginative creative writing: 
+
+* Loving Care Pet Boarding takes Pets: Cats and Dogs
+.
+* Cats and Dogs are booked into boarding by Owners. 
+
+* In boarding, these Pets are given good exercise and plenty of 
+attention: 
+	* Every day, Dogs are walked/played with twice and get groomed once. 
+	* Cats are given two playtimes (for exercise) and get groomed once.  
+	* Volunteers may walk dogs, play with dogs, groom dogs, play with cats,
+	 	or groom cats. 
+	* Boarding is billed by the full day / half day: $30 per day, 
+	$15 if picked up before 12 pm or dropped off after 12 pm.
+	* Pets must have vaccines and be spayed/neutered to be in boarding.  
+	
+* In doggy day care, Dogs are dropped off while the Owners are at 
+work. 
+	* Dogs in doggy day care can only stay during that one 
+	day's business hours: 8 am - 6 pm every day.
+	* Doggy day care is billed by how long they stay: half a 
+	day (5 hours or less) is $10; more than 5 hours is $20. 
+	* If Dogs are picked up late (between 6 and 8), there is a charge of $5. 
+	* If they are left overnight, there is a charge of at least $15 (as if 
+	left overnight for a half day of boarding.) 
+	* While Dogs are in doggy day care, they get exercise and 
+	attention, same as in boarding, as well as nap times. 
+	* Reservations are welcome, as well as drop-in if there is
+	space. Doggy day care can hold up to 30 dogs a day. 
+	* Dogs must have vaccines and be spayed/neutered to be in doggy day care.
+
+ * Owners attend classes with or without their Pet. 
+	* Each class is taught by one or more paid Employees. 
+	* Classes are generally taught for 6-week periods, one hour per week. 
+	* Owners must sign up ahead of time. 
+	* There can be up to 15 Owners (and their one Pet if required) at a time
+	in a class, unless otherwise permitted by the instructor. 
+
+* Employees are paid to work at Loving Care Pet Boarding. 
+	* Employees therefore have a salary.
+	* They may be receptionists, veterinarians, or attendants. 
+	* Depending on their job title, they might have appropriate training
+	or licensing. (e.g. attendants have basic training in working with cats
+	and dogs, or a veterinarian has a license in veterinary
+	medicine)
+	* Employees work in 8 hour shifts: 22:00-06:00, 06:00-14:00, 
+	14:00 - 20:00 
+	* Receptionists work on billing and office work - they should, at least,
+	know how to handle pets, though. (Should they be required to have pet
+	training too? Is a receptionist just a specific type of attendant?) 
+	* Veterinarians work on all services for all pets.
+	* Attendants work on boarding and daycare services. 
+	* Teachers work on pet classes. 
+* Volunteers come and go as they please.
+	* They must be trained to help with walking and playing with Cats or
+	Dogs before they can assist with them. 
+	* Once they are trained, Volunteers may do exercising/playing or 
+	grooming duties for a pet.  
+	* Volunteers provide their name, email address, and phone number 
+	upon signing up. 
+
+* Idea: Use an Account to keep track of Transactions? NOPE
+	* Is salary even a relevant thing here? "employees are well cared for"-
+	what does this entail? 
+	* Do we care about when the employee works and how much they make, or 
+	do we only care about the services they can provide...? 

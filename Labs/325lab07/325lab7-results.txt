@@ -1,0 +1,80 @@
+Xavier Damas, Alex Childers, Elizabeth Pineda
+***
+Lab Query 1
+***
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Raimi           09-JUN-91                                                       
+
+***
+Lab Query 2
+***
+
+HIREDATE                                                                        
+---------                                                                       
+23-JAN-92                                                                       
+09-JUN-91                                                                       
+17-NOV-91                                                                       
+
+***
+Lab Query 3
+***
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+King            17-NOV-91                                                       
+Ford            03-DEC-91                                                       
+Martin          28-SEP-91                                                       
+Scott           09-NOV-91                                                       
+Turner          08-SEP-91                                                       
+Adams           23-SEP-91                                                       
+James           03-DEC-91                                                       
+Miller          23-JAN-92                                                       
+
+8 rows selected.
+
+***
+Lab Query 4
+***
+
+Employee Salaries                                                               
+-----------------------------------------------------------                     
+King - $5000                                                                    
+Jones - $2975                                                                   
+Blake - $2850                                                                   
+Raimi - $2450                                                                   
+Ford - $3000                                                                    
+Smith - $800                                                                    
+Michaels - $1600                                                                
+Ward - $1250                                                                    
+Martin - $1250                                                                  
+Scott - $3000                                                                   
+Turner - $1500                                                                  
+
+Employee Salaries                                                               
+-----------------------------------------------------------                     
+Adams - $1100                                                                   
+James - $950                                                                    
+Miller - $1300                                                                  
+
+14 rows selected.
+
+***
+Lab Query 5
+***
+
+DEPT_NAME                                                                       
+---------------                                                                 
+Research                                                                        
+Management                                                                      
+
+***
+Lab Query 6
+***
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Ward                                                                            
+Turner                                                                          
+

@@ -1,0 +1,504 @@
+========================================================================
+Query 1:
+Shows who is enrolled in at least one of the four Dog Obedience Training
+classes.
+========================================================================
+
+CLASS_NAME                                                                      
+--------------------------------------------------------------------------------
+  OWNER_ID OWNER_NAME                                PET_NAME                   
+---------- ----------------------------------------- --------------------       
+DATE_ENRO                                                                       
+---------                                                                       
+Dog Obedience Training 1                                                        
+        11 Karen Gearhardt                           Rosie                      
+23-NOV-18                                                                       
+                                                                                
+Dog Obedience Training 1                                                        
+        20 Desmond Boone                             Royal                      
+22-APR-19                                                                       
+
+CLASS_NAME                                                                      
+--------------------------------------------------------------------------------
+  OWNER_ID OWNER_NAME                                PET_NAME                   
+---------- ----------------------------------------- --------------------       
+DATE_ENRO                                                                       
+---------                                                                       
+                                                                                
+Dog Obedience Training 1                                                        
+        13 Kaisa Tiryaki                             Chips                      
+12-NOV-18                                                                       
+                                                                                
+Dog Obedience Training 2                                                        
+        19 Rudolf Siskind                            Tofu                       
+
+CLASS_NAME                                                                      
+--------------------------------------------------------------------------------
+  OWNER_ID OWNER_NAME                                PET_NAME                   
+---------- ----------------------------------------- --------------------       
+DATE_ENRO                                                                       
+---------                                                                       
+23-NOV-18                                                                       
+                                                                                
+Dog Obedience Training 2                                                        
+        20 Desmond Boone                             Rum                        
+22-APR-19                                                                       
+                                                                                
+Dog Obedience Training 3                                                        
+
+CLASS_NAME                                                                      
+--------------------------------------------------------------------------------
+  OWNER_ID OWNER_NAME                                PET_NAME                   
+---------- ----------------------------------------- --------------------       
+DATE_ENRO                                                                       
+---------                                                                       
+        18 Ernie Smith                               Magnus                     
+22-APR-19                                                                       
+                                                                                
+Dog Obedience Training 4                                                        
+        16 Maisie Johanneson                         Lamar                      
+22-APR-19                                                                       
+                                                                                
+
+7 rows selected.
+
+=======================================================================
+Query 2:
+Shows a daycare roster: the name and phone number for owners of dogs
+who are enrolled in daycare on December 13, 2018, as well as when the
+dogs will be picked up that day (in 24-hour time).
+=======================================================================
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Deluxe (Fixed)       Chips                                                      
+Kaisa Tiryaki                             5735550193       1700                 
+                                                                                
+Deluxe (Fixed)       Chips                                                      
+Kaisa Tiryaki                             5735550120       1700                 
+                                                                                
+Deluxe (Fixed)       Chips                                                      
+Kaisa Tiryaki                             2075550181       1700                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Deluxe (Fixed)       Lamar                                                      
+Maisie Johanneson                         5125550192       1700                 
+                                                                                
+Deluxe (Fixed)       Royal                                                      
+Desmond Boone                             7755550128       1700                 
+                                                                                
+Deluxe (Fixed)       Royal                                                      
+Desmond Boone                             7075551234       1700                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Deluxe (Fixed)       Rum                                                        
+Desmond Boone                             7755550128       1330                 
+                                                                                
+Deluxe (Fixed)       Rum                                                        
+Desmond Boone                             7075551234       1330                 
+                                                                                
+Deluxe (Not Fixed)   Gertrude                                                   
+Kaisa Tiryaki                             5735550120       1400                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Deluxe (Not Fixed)   Gertrude                                                   
+Kaisa Tiryaki                             2075550181       1400                 
+                                                                                
+Deluxe (Not Fixed)   Gertrude                                                   
+Kaisa Tiryaki                             5735550193       1400                 
+                                                                                
+Regular (Fixed)      Katrina                                                    
+Romulo Santiago                           5125550172       1700                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Regular (Fixed)      Magnus                                                     
+Ernie Smith                               4025550114       1700                 
+                                                                                
+Regular (Fixed)      Magnus                                                     
+Ernie Smith                               2085550124       1700                 
+                                                                                
+Regular (Fixed)      Rosie                                                      
+Karen Gearhardt                           4105550133       1700                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Regular (Fixed)      Tofu                                                       
+Rudolf Siskind                            9485820000       1700                 
+                                                                                
+Regular (Fixed)      Tofu                                                       
+Rudolf Siskind                            9195550188       1700                 
+                                                                                
+Regular (Fixed)      Tofu                                                       
+Rudolf Siskind                            6175550188       1700                 
+                                                                                
+
+DAYCARE_CATEGORY     PET_NAME                                                   
+-------------------- --------------------                                       
+OWNER_NAME                                PHONE_NUMB   END_TIME                 
+----------------------------------------- ---------- ----------                 
+Regular (Not Fixed)  Chewy                                                      
+Karen Gearhardt                           4105550133       1700                 
+                                                                                
+
+19 rows selected.
+
+=======================================================================
+Query 3:
+Shows a list of pets who are currently signed up for boarding and need
+medication while they're at Loving Care Pet Boarding (LCPB).
+=======================================================================
+
+PET_NAME             MEDICATION_NAME      DOSAGE     START_DAT                  
+-------------------- -------------------- ---------- ---------                  
+Chips                Hydrocodone          1 mg       09-DEC-18                  
+Chips                Erythromycin         50 mg      09-DEC-18                  
+Chips                Fluconazole          50 mg      09-DEC-18                  
+Chewy                Tramadol             10 mg      14-DEC-18                  
+Rosie                Amoxicillin          50 mg      23-DEC-18                  
+Rosie                Aspirin              75 mg      23-DEC-18                  
+Rosie                Aspirin              75 mg      28-JAN-19                  
+Chips                Hydrocodone          1 mg       28-JAN-19                  
+Chips                Erythromycin         50 mg      28-JAN-19                  
+Chips                Fluconazole          50 mg      28-JAN-19                  
+Rosie                Amoxicillin          50 mg      28-JAN-19                  
+
+PET_NAME             MEDICATION_NAME      DOSAGE     START_DAT                  
+-------------------- -------------------- ---------- ---------                  
+Chewy                Tramadol             10 mg      29-JAN-19                  
+
+12 rows selected.
+
+=======================================================================
+Query 4:
+Shows the owner name and enrollment information on each enrollment
+that has not been paid yet.
+=======================================================================
+
+SECTIO                                                                          
+------                                                                          
+SECTION                                                                         
+--------------------------------------------------------------------------------
+OWNER_NAME                                PET_NAME             START_DAT        
+----------------------------------------- -------------------- ---------        
+B10000                                                                          
+Regular (Fixed)                                                                 
+Maya Smith                                Windsor              08-DEC-18        
+                                                                                
+B10001                                                                          
+Deluxe (Fixed)                                                                  
+Maisie Johanneson                         Trix                 19-DEC-18        
+
+SECTIO                                                                          
+------                                                                          
+SECTION                                                                         
+--------------------------------------------------------------------------------
+OWNER_NAME                                PET_NAME             START_DAT        
+----------------------------------------- -------------------- ---------        
+                                                                                
+C10014                                                                          
+Taming Cat Behavioral Problems                                                  
+Desmond Boone                                                  07-JAN-19        
+                                                                                
+D10007                                                                          
+Deluxe (Not Fixed)                                                              
+
+SECTIO                                                                          
+------                                                                          
+SECTION                                                                         
+--------------------------------------------------------------------------------
+OWNER_NAME                                PET_NAME             START_DAT        
+----------------------------------------- -------------------- ---------        
+Kaisa Tiryaki                             Gertrude             13-DEC-18        
+                                                                                
+D10007                                                                          
+Deluxe (Not Fixed)                                                              
+Kaisa Tiryaki                             Gertrude             14-DEC-18        
+                                                                                
+D10007                                                                          
+
+SECTIO                                                                          
+------                                                                          
+SECTION                                                                         
+--------------------------------------------------------------------------------
+OWNER_NAME                                PET_NAME             START_DAT        
+----------------------------------------- -------------------- ---------        
+Deluxe (Not Fixed)                                                              
+Kaisa Tiryaki                             Gertrude             16-DEC-18        
+                                                                                
+
+6 rows selected.
+
+=======================================================================
+Query 5:
+Shows a count of how many pets are enrolled in each section of
+daycare throughout the week of December 9, 2018 - December 15, 2018,
+as well as relevant enrollment information.
+=======================================================================
+
+DATE_OF_D DAYCARE_CATEGORY     ENROLLMENTS EARLIEST_DOG_ARRIVAL                 
+--------- -------------------- ----------- --------------------                 
+LATEST_DOG_DEPARTURE                                                            
+--------------------                                                            
+10-DEC-18 Regular (Fixed)                1                  830                 
+                1700                                                            
+                                                                                
+11-DEC-18 Regular (Fixed)                1                  830                 
+                1700                                                            
+                                                                                
+12-DEC-18 Regular (Fixed)                1                  830                 
+                1700                                                            
+                                                                                
+
+DATE_OF_D DAYCARE_CATEGORY     ENROLLMENTS EARLIEST_DOG_ARRIVAL                 
+--------- -------------------- ----------- --------------------                 
+LATEST_DOG_DEPARTURE                                                            
+--------------------                                                            
+13-DEC-18 Deluxe (Fixed)                 4                  900                 
+                1700                                                            
+                                                                                
+13-DEC-18 Deluxe (Not Fixed)             1                 1000                 
+                1400                                                            
+                                                                                
+13-DEC-18 Regular (Fixed)                4                  830                 
+                1700                                                            
+                                                                                
+
+DATE_OF_D DAYCARE_CATEGORY     ENROLLMENTS EARLIEST_DOG_ARRIVAL                 
+--------- -------------------- ----------- --------------------                 
+LATEST_DOG_DEPARTURE                                                            
+--------------------                                                            
+13-DEC-18 Regular (Not Fixed)            1                  900                 
+                1700                                                            
+                                                                                
+14-DEC-18 Deluxe (Fixed)                 1                 1000                 
+                1500                                                            
+                                                                                
+14-DEC-18 Deluxe (Not Fixed)             1                 1000                 
+                1600                                                            
+                                                                                
+
+DATE_OF_D DAYCARE_CATEGORY     ENROLLMENTS EARLIEST_DOG_ARRIVAL                 
+--------- -------------------- ----------- --------------------                 
+LATEST_DOG_DEPARTURE                                                            
+--------------------                                                            
+15-DEC-18 Deluxe (Fixed)                 3                  900                 
+                1700                                                            
+                                                                                
+15-DEC-18 Regular (Fixed)                3                  900                 
+                1700                                                            
+                                                                                
+15-DEC-18 Regular (Not Fixed)            1                  900                 
+                1700                                                            
+                                                                                
+
+12 rows selected.
+
+=======================================================================
+Query 6:
+Shows a count of how many pets will start their boarding session in
+each section of boarding throughout the week of January 27, 2019 to
+February 2, 2019, as well as relevant enrollment information.
+(That is, how many pets are we expecting to arrive this week?)
+Could be used in conjunction with a table of departures to figure out
+how many pets are leaving this week as well.
+=======================================================================
+
+START_DAT BOARDING_CATEGORY      ARRIVALS                                       
+--------- -------------------- ----------                                       
+27-JAN-19 Deluxe (Not Fixed)            1                                       
+27-JAN-19 Regular (Fixed)               1                                       
+28-JAN-19 Deluxe (Fixed)                2                                       
+28-JAN-19 Regular (Fixed)               1                                       
+29-JAN-19 Deluxe (Not Fixed)            1                                       
+29-JAN-19 Regular (Not Fixed)           1                                       
+
+6 rows selected.
+
+=======================================================================
+Query 7:
+Shows a list of what workers (both employees and volunteer) both
+specialize in providing Boarding services and are qualified to handle
+cats.
+=======================================================================
+
+NAME                                       WORKER_ID WORKER_TYPE                
+----------------------------------------- ---------- --------------------       
+Dua Mcknight                                  300000 employee                   
+Konrad Goddard                                300002 employee                   
+Jovan Gale                                    300012 employee                   
+Josef Finley                                  300014 employee                   
+Saara Thorne                                  300024 volunteer                  
+Alexis Li                                     300028 volunteer                  
+Prisha Mills                                  300034 volunteer                  
+Hall Needham                                  300036 volunteer                  
+
+8 rows selected.
+
+=======================================================================
+Query 8: For pets that are enrolled in Boarding in January 2019, this
+shows the names of pets who got their last vaccine three or more years
+ago. This might be for the purpose of reminding owners to re-vaccinate
+before they can board again.
+=======================================================================
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Deluxe (Fixed)       Rum                  distemper            23-MAR-15        
+28-JAN-19 03-FEB-19                                                             
+                                                                                
+Deluxe (Fixed)       Rum                  rabies               12-APR-15        
+28-JAN-19 03-FEB-19                                                             
+                                                                                
+Deluxe (Not Fixed)   Gertrude             rabies               27-DEC-06        
+27-DEC-18 02-JAN-19                                                             
+                                                                                
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Deluxe (Not Fixed)   Gertrude             rabies               27-DEC-06        
+27-JAN-19 03-FEB-19                                                             
+                                                                                
+Deluxe (Not Fixed)   Gertrude             distemper            03-JAN-07        
+27-DEC-18 02-JAN-19                                                             
+                                                                                
+Deluxe (Not Fixed)   Gertrude             distemper            03-JAN-07        
+27-JAN-19 03-FEB-19                                                             
+                                                                                
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Deluxe (Not Fixed)   Mambo                distemper            09-FEB-14        
+29-JAN-19 03-FEB-19                                                             
+                                                                                
+Deluxe (Not Fixed)   Mambo                rabies               09-FEB-14        
+29-JAN-19 03-FEB-19                                                             
+                                                                                
+Regular (Fixed)      Rosie                distemper            02-NOV-12        
+28-JAN-19 01-FEB-19                                                             
+                                                                                
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Regular (Fixed)      Rosie                rabies               02-NOV-12        
+28-JAN-19 01-FEB-19                                                             
+                                                                                
+Regular (Fixed)      Tofu                 distemper            12-JAN-15        
+02-JAN-19 09-JAN-19                                                             
+                                                                                
+Regular (Fixed)      Tofu                 distemper            12-JAN-15        
+27-JAN-19 02-FEB-19                                                             
+                                                                                
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Regular (Fixed)      Tofu                 rabies               12-JAN-15        
+02-JAN-19 09-JAN-19                                                             
+                                                                                
+Regular (Fixed)      Tofu                 rabies               12-JAN-15        
+27-JAN-19 02-FEB-19                                                             
+                                                                                
+Regular (Not Fixed)  Chewy                rabies               23-MAR-11        
+29-JAN-19 02-FEB-19                                                             
+                                                                                
+
+BOARDING_CATEGORY    PET_NAME             VACCINE_NAME         DATE_RECE        
+-------------------- -------------------- -------------------- ---------        
+START_DAT END_DATE                                                              
+--------- ---------                                                             
+Regular (Not Fixed)  Chewy                distemper            04-APR-11        
+29-JAN-19 02-FEB-19                                                             
+                                                                                
+
+16 rows selected.
+
+=======================================================================
+Query 9: Shows the names, job titles, start dates, and amount of time
+that employees have worked at Loving Care Pet Boarding (as of the time
+of running this script). This is so that the owner of LCPB can send
+thanks and a gift to employees on their start date.
+=======================================================================
+
+NAME                                      JOB_TITLE                             
+----------------------------------------- ------------------------------        
+START_DAT DAYS_WORKED                                                           
+--------- -----------                                                           
+Dua Mcknight                              Veterinarian                          
+23-JAN-08  4116.92616                                                           
+                                                                                
+Jovan Gale                                Animal Care Associate                 
+23-JAN-08  4116.92616                                                           
+                                                                                
+Konrad Goddard                            Groomer                               
+12-FEB-08  4096.92616                                                           
+                                                                                
+
+NAME                                      JOB_TITLE                             
+----------------------------------------- ------------------------------        
+START_DAT DAYS_WORKED                                                           
+--------- -----------                                                           
+Josef Finley                              Animal Care Associate                 
+30-AUG-08  3896.92616                                                           
+                                                                                
+Daphne Villanueva                         Groomer                               
+20-MAR-10  3329.92616                                                           
+                                                                                
+Marian Sosa                               Teacher                               
+06-APR-11  2947.92616                                                           
+                                                                                
+
+NAME                                      JOB_TITLE                             
+----------------------------------------- ------------------------------        
+START_DAT DAYS_WORKED                                                           
+--------- -----------                                                           
+Fannie Paine                              Teacher                               
+01-MAY-12  2556.92616                                                           
+                                                                                
+Tala Grey                                 Veterinarian                          
+27-JUN-13  2134.92616                                                           
+                                                                                
+Aubree Cole                               Animal Care Associate                 
+11-SEP-16  962.926157                                                           
+                                                                                
+
+NAME                                      JOB_TITLE                             
+----------------------------------------- ------------------------------        
+START_DAT DAYS_WORKED                                                           
+--------- -----------                                                           
+Scott Millar                              Animal Care Associate                 
+20-OCT-17  558.926157                                                           
+                                                                                
+
+10 rows selected.
+
+SQL> exit

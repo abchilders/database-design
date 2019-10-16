@@ -1,0 +1,65 @@
+Alex Childers
+CS 325 - Homework 9 - Problem 2
+Last modified: Nov. 16, 2018
+
+Problem 2 Part A: 
+-----------------
+Member(MEM-NUM, Last-name, Date-joined)
+
+Seminar(SEM-NUM, Title, Sem-date, Time-begin, Time-end, Mem-in-charge)
+	foreign key (Mem-in-charge) references Member(Mem-num)
+
+Parking-space(PARK-ID-NUM, Garage-name, Section-num, Space-num, Mem-num)
+	foreign key (Mem-num) references Member
+
+Member-email-addr(MEM-NUM, EMAIL)
+	foreign key (Mem-num) references Member
+
+Seminar-sign-up(MEM-NUM, SEM-NUM)
+	foreign key (Mem-num) references Member, 
+	foreign key (Sem-num) references Seminar
+
+Problem 2 Part B:
+-----------------
+Transaction(TRANS_NUM, Trans_date, Trans_amount, Acct_num)
+	foreign key (Acct_num) references Account
+
+Account(ACCT_NUM, Acct_opening_date, Acct_curr_balance, Acct_int_rate)
+
+Client(CLI_NUM, Client_type, Cli_email)
+
+Individ_client(CLI_NUM, Individ_last_name, Individ_first_name, Individ_ssn) 
+	foreign key (Cli_num) references Client  
+
+Corp_client(CLI_NUM, Corp_dba_name, Corp_tax_id)
+	foreign key (Cli_num) references Client
+
+Client_operating_system_used(CLI_NUM, CLI_OS)
+	foreign key (Cli_num) references Client
+
+Client_owns_account(CLI_NUM, ACCT_NUM)
+	foreign key (Cli_num) references Client, 
+	foreign key (Acct_num) references Account
+
+Problem 2 Part C: 
+-----------------
+Donation(DON_NUM, Don_date, Don_amount, Booster_num)
+	foreign key (Booster_num) references Booster 
+
+Booster(BOOSTER_NUM, is_parent, is_alum, is_friend, Booster_lname, 
+	Booster_fname, Booster_email)
+
+Parent(BOOSTER_NUM, Vol_hrs, Prefd_phone) 
+	foreign key (Booster_num) references Booster 
+
+Alum(BOOSTER_NUM, Year_left)
+	foreign key (Booster_num) references Booster 
+
+Friend(BOOSTER_NUM, Year_joined)
+	foreign key (Booster_num) references Booster 
+
+Student(STU_ID, Stu_lname, Stu_fname, Stu_grade, Stu_gpa) 
+
+Student-Guardian-Rltnship(STU_ID, BOOSTER_NUM)
+	foreign key (Stu_id) references Student, 
+	foreign key (Booster_num) references Parent

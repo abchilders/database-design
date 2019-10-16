@@ -1,0 +1,158 @@
+PART A:
+Pure relational projection of client last names from Client table.
+
+CLI_LNAME                                                                       
+---------------                                                                 
+Cooper                                                                          
+Beta                                                                            
+Carlos                                                                          
+Elgar                                                                           
+Alpha                                                                           
+
+PART B:
+Pure relational projection of the video format and video rental price
+columns from the Video table.
+
+VID_FO VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+BluRay             1.99                                                         
+DVD                2.99                                                         
+HD-DVD             3.99                                                         
+BluRay              .99                                                         
+HD-DVD             4.99                                                         
+BluRay             3.99                                                         
+DVD               12.55                                                         
+
+7 rows selected.
+
+PART C:
+Relational selection of the rows of the Video table for videos
+with a length of more than 75 minutes.
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH                             
+------ ------ --------- ---------------- ----------                             
+11111H HD-DVD 22-FEB-14             4.99         91                             
+22222B BluRay 03-MAR-12             1.99        105                             
+44444B BluRay 04-APR-10              .99         91                             
+55555H DVD    17-JUN-09             2.99        125                             
+
+PART D:
+Relational selection of rows of the Rental table for rentals
+involving the video with ID '00000D'.
+
+CLI_ VID_ID                                                                     
+---- ------                                                                     
+222B 00000D                                                                     
+333C 00000D                                                                     
+
+PART E:
+Cartesian product of the Video and Rental tables.
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+00000D DVD    11-JAN-13            12.55         73 000A 44444B                 
+00000D DVD    11-JAN-13            12.55         73 111B 11111H                 
+00000D DVD    11-JAN-13            12.55         73 222B 00000D                 
+00000D DVD    11-JAN-13            12.55         73 222B 22222B                 
+00000D DVD    11-JAN-13            12.55         73 333C 00000D                 
+00000D DVD    11-JAN-13            12.55         73 333C 11111H                 
+00000D DVD    11-JAN-13            12.55         73 333C 22222B                 
+00000D DVD    11-JAN-13            12.55         73 555E 55555H                 
+11111H HD-DVD 22-FEB-14             4.99         91 000A 44444B                 
+11111H HD-DVD 22-FEB-14             4.99         91 111B 11111H                 
+11111H HD-DVD 22-FEB-14             4.99         91 222B 00000D                 
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+11111H HD-DVD 22-FEB-14             4.99         91 222B 22222B                 
+11111H HD-DVD 22-FEB-14             4.99         91 333C 00000D                 
+11111H HD-DVD 22-FEB-14             4.99         91 333C 11111H                 
+11111H HD-DVD 22-FEB-14             4.99         91 333C 22222B                 
+11111H HD-DVD 22-FEB-14             4.99         91 555E 55555H                 
+22222B BluRay 03-MAR-12             1.99        105 000A 44444B                 
+22222B BluRay 03-MAR-12             1.99        105 111B 11111H                 
+22222B BluRay 03-MAR-12             1.99        105 222B 00000D                 
+22222B BluRay 03-MAR-12             1.99        105 222B 22222B                 
+22222B BluRay 03-MAR-12             1.99        105 333C 00000D                 
+22222B BluRay 03-MAR-12             1.99        105 333C 11111H                 
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+22222B BluRay 03-MAR-12             1.99        105 333C 22222B                 
+22222B BluRay 03-MAR-12             1.99        105 555E 55555H                 
+33333H HD-DVD 22-FEB-14             3.99         69 000A 44444B                 
+33333H HD-DVD 22-FEB-14             3.99         69 111B 11111H                 
+33333H HD-DVD 22-FEB-14             3.99         69 222B 00000D                 
+33333H HD-DVD 22-FEB-14             3.99         69 222B 22222B                 
+33333H HD-DVD 22-FEB-14             3.99         69 333C 00000D                 
+33333H HD-DVD 22-FEB-14             3.99         69 333C 11111H                 
+33333H HD-DVD 22-FEB-14             3.99         69 333C 22222B                 
+33333H HD-DVD 22-FEB-14             3.99         69 555E 55555H                 
+44444B BluRay 04-APR-10              .99         91 000A 44444B                 
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+44444B BluRay 04-APR-10              .99         91 111B 11111H                 
+44444B BluRay 04-APR-10              .99         91 222B 00000D                 
+44444B BluRay 04-APR-10              .99         91 222B 22222B                 
+44444B BluRay 04-APR-10              .99         91 333C 00000D                 
+44444B BluRay 04-APR-10              .99         91 333C 11111H                 
+44444B BluRay 04-APR-10              .99         91 333C 22222B                 
+44444B BluRay 04-APR-10              .99         91 555E 55555H                 
+55555H DVD    17-JUN-09             2.99        125 000A 44444B                 
+55555H DVD    17-JUN-09             2.99        125 111B 11111H                 
+55555H DVD    17-JUN-09             2.99        125 222B 00000D                 
+55555H DVD    17-JUN-09             2.99        125 222B 22222B                 
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+55555H DVD    17-JUN-09             2.99        125 333C 00000D                 
+55555H DVD    17-JUN-09             2.99        125 333C 11111H                 
+55555H DVD    17-JUN-09             2.99        125 333C 22222B                 
+55555H DVD    17-JUN-09             2.99        125 555E 55555H                 
+66666E BluRay 13-SEP-18             3.99            000A 44444B                 
+66666E BluRay 13-SEP-18             3.99            111B 11111H                 
+66666E BluRay 13-SEP-18             3.99            222B 00000D                 
+66666E BluRay 13-SEP-18             3.99            222B 22222B                 
+66666E BluRay 13-SEP-18             3.99            333C 00000D                 
+66666E BluRay 13-SEP-18             3.99            333C 11111H                 
+66666E BluRay 13-SEP-18             3.99            333C 22222B                 
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+66666E BluRay 13-SEP-18             3.99            555E 55555H                 
+
+56 rows selected.
+
+PART F:
+Equi-join of the Video and Rental tables.
+
+VID_ID VID_FO VID_PURCH VID_RENTAL_PRICE VID_LENGTH CLI_ VID_ID                 
+------ ------ --------- ---------------- ---------- ---- ------                 
+00000D DVD    11-JAN-13            12.55         73 222B 00000D                 
+00000D DVD    11-JAN-13            12.55         73 333C 00000D                 
+11111H HD-DVD 22-FEB-14             4.99         91 333C 11111H                 
+11111H HD-DVD 22-FEB-14             4.99         91 111B 11111H                 
+22222B BluRay 03-MAR-12             1.99        105 222B 22222B                 
+22222B BluRay 03-MAR-12             1.99        105 333C 22222B                 
+44444B BluRay 04-APR-10              .99         91 000A 44444B                 
+55555H DVD    17-JUN-09             2.99        125 555E 55555H                 
+
+8 rows selected.
+
+PART G:
+Equi-join of Client and Rental tables.
+
+CLI_ CLI_LNAME       CLI_FNAME       CLI_PHONE    CLI_ VID_ID                   
+---- --------------- --------------- ------------ ---- ------                   
+000A Alpha           Ann             000-0001     000A 44444B                   
+111B Beta            Bob             111-1112     111B 11111H                   
+222B Beta            Ann             222-2223     222B 00000D                   
+222B Beta            Ann             222-2223     222B 22222B                   
+333C Carlos          David           333-3334     333C 00000D                   
+333C Carlos          David           333-3334     333C 11111H                   
+333C Carlos          David           333-3334     333C 22222B                   
+555E Elgar           Edward          011-8999     555E 55555H                   
+
+8 rows selected.
+

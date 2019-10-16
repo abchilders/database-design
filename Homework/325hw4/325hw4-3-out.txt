@@ -1,0 +1,38 @@
+Rewriting:
+"select * from empl where salary between 1500 and 2500;":
+
+EMPL EMPL_LAST_NAME  JOB_TITLE  MGR  HIREDATE      SALARY COMMISSION DEP        
+---- --------------- ---------- ---- --------- ---------- ---------- ---        
+7782 Raimi           Manager    7839 09-JUN-91       2450            100        
+7499 Michaels        Sales      7698 20-FEB-91       1600        300 300        
+7844 Turner          Sales      7698 08-SEP-91       1500          0 300        
+
+Rewriting:
+"select job title,
+salary from
+empl where job_title = 'Clerk' and salary > 1200;"
+
+JOB_TITLE      SALARY                                                           
+---------- ----------                                                           
+Clerk            1300                                                           
+
+Rewriting:
+"select empl_last_name, job_title, salary from empl,
+dept where empl.dept_num = dept.dep_num and dept_loc in ('Dallas',
+'Chicago')
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+Jones           Manager          2975                                           
+Blake           Manager          2850                                           
+Ford            Analyst          3000                                           
+Smith           Clerk             800                                           
+Michaels        Sales            1600                                           
+Ward            Sales            1250                                           
+Martin          Sales            1250                                           
+Scott           Analyst          3000                                           
+Turner          Sales            1500                                           
+James           Clerk             950                                           
+
+10 rows selected.
+

@@ -1,0 +1,13 @@
+SQL> prompt Alex Childers
+Alex Childers
+SQL> prompt BEFORE GRANT:
+BEFORE GRANT:
+SQL> select *
+  2  from st10.painter;
+from st10.painter
+          *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+SQL> spool off

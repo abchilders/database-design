@@ -1,0 +1,127 @@
+
+=======================
+Homework 9 Problem 3
+=======================
+
+Alex Childers
+
+************
+Problem 3-1
+
+View dropped.
+
+
+View created.
+
+************
+Problem 3-2
+
+CLIENT_LNAME    FAVE_CAT                                                        
+--------------- ----------                                                      
+Alpha           Comedy                                                          
+Beta            Action                                                          
+Carlos          Drama                                                           
+Delta           Classic                                                         
+Epsilon         Classic                                                         
+Feta            Family                                                          
+Greta           Action                                                          
+Harpo           Comedy                                                          
+
+8 rows selected.
+
+
+FAVE_CAT   CLIENT_LNAME                                                         
+---------- ---------------                                                      
+Action     Beta                                                                 
+Action     Greta                                                                
+Classic    Delta                                                                
+Classic    Epsilon                                                              
+Comedy     Alpha                                                                
+Comedy     Harpo                                                                
+Drama      Carlos                                                               
+Family     Feta                                                                 
+
+8 rows selected.
+
+************
+Problem 3-3
+
+View dropped.
+
+
+View created.
+
+************
+Problem 3-4
+
+CATEGORY_N MOVIE MOVIE_TITLE                                                    
+---------- ----- ----------------------------------------                       
+Drama      A     Clockwork Orange                                               
+Drama      A     Midnight Cowboy                                                
+Classic    G     All About Eve                                                  
+Family     G     Babe                                                           
+Classic    G     Gone with the Wind                                             
+Classic    G     It's a Wonderful Life                                          
+Family     G     The Muppet Movie                                               
+Classic    G     The Philadelphia Story                                         
+Family     G     Toy Story                                                      
+Family     G     Toy Story 2                                                    
+Action     PG    Indiana Jones and the Temple of Doom                           
+
+CATEGORY_N MOVIE MOVIE_TITLE                                                    
+---------- ----- ----------------------------------------                       
+Action     PG    Return of the Jedi                                             
+Action     PG    Star Wars                                                      
+Action     PG    The Empire Strikes Back                                        
+Action     PG    The Phantom Menace                                             
+Action     PG-13 Indiana Jones and the Last Crusade                             
+Drama      R     Fatal Attraction                                               
+Drama      R     One Flew Over the Cuckoo's Nest                                
+Comedy     R     The Blues Brothers                                             
+Action     R     The Matrix                                                     
+
+20 rows selected.
+
+************
+Problem 3-5
+
+CATEGORY_N # in Category                                                        
+---------- -------------                                                        
+Action                 7                                                        
+Classic                4                                                        
+Family                 4                                                        
+Drama                  4                                                        
+Comedy                 1                                                        
+
+************
+Problem 3-6
+
+Table dropped.
+
+
+Table created.
+
+
+Sequence dropped.
+
+
+Sequence created.
+
+************
+Problem 3-7
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+ACCOMPLICE_NUM NAME                           PRONOUN  BIRTH_YEAR               
+-------------- ------------------------------ -------- ----------               
+            11 Hope                           she            2006               
+            12 Ari                            he             2016               
+            13 Inka Binka                     she            1985               
+

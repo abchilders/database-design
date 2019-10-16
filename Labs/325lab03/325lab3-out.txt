@@ -1,0 +1,35 @@
+Alex Childers
+Xavier Damas
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row deleted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+  PART_NUM PART_NAME                 QUANTITY_ON_HAND      PRICE LEV LAST_INSP  
+---------- ------------------------- ---------------- ---------- --- ---------  
+     10603 hexagonal wrench                        13       9.99 003 07-SEP-17  
+     10604 tire                                   100      39.99 333 06-SEP-18  
+     10605 hammer                                  30       9.99 003 01-SEP-18  
+     10606 3/8 in bolt                           5000        .03 005 04-SEP-18  
+
+
+ORDER_   CUST_NUM   PART_NUM ORDER_DAT   QUANTITY O D                           
+------ ---------- ---------- --------- ---------- - -                           
+123445         32      10603 07-SEP-18          2 B U                           
+987654         54      10604 01-JAN-18          4 I F                           
+356634        654      10605 07-SEP-18          5 G P                           
+

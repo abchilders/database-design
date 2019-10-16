@@ -1,0 +1,27 @@
+
+Fri Dec 07                                                                           page    1
+                                     Doggy Daycare Roster
+                                    for December 13, 2018
+
+Section               Pet Name  Start Time End Time Owner              Phone                  
+--------------------- --------- ---------- -------- ------------------ -------------          
+Deluxe (Fixed)....... Chips     09:00      17:00    Kaisa Tiryaki      573-555-0193           
+                                                                       573-555-0120           
+                                                                       207-555-0181           
+                      Lamar     09:00      17:00    Maisie Johanneson  512-555-0192           
+                      Royal     09:00      17:00    Desmond Boone      775-555-0128           
+                      Rum       09:00      13:30    Desmond Boone      775-555-0128           
+                                                                                              
+Deluxe (Not Fixed)... Gertrude  10:00      14:00    Kaisa Tiryaki      207-555-0181           
+                                                                       573-555-0193           
+                                                                       573-555-0120           
+                                                                                              
+Regular (Fixed)...... Katrina   09:00      17:00    Romulo Santiago    512-555-0172           
+                      Magnus    08:30      17:00    Ernie Smith        208-555-0124           
+                                                                       402-555-0114           
+                      Rosie     09:00      17:00    Karen Gearhardt    410-555-0133           
+                      Tofu      09:00      17:00    Rudolf Siskind     617-555-0188           
+                                                                       919-555-0188           
+                                                                                              
+Regular (Not Fixed).. Chewy     09:00      17:00    Karen Gearhardt    410-555-0133           
+                                                                                              

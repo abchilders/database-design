@@ -1,0 +1,191 @@
+Muranda Kozlowicz
+Alex Childers
+Lab Problem 1
+
+DEPT_NAME           SALARY                                                      
+--------------- ----------                                                      
+Accounting            2450                                                      
+Accounting            1300                                                      
+Management            5000                                                      
+Operations            1100                                                      
+Research              3000                                                      
+Research              2975                                                      
+Research              3000                                                      
+Research               800                                                      
+Sales                 1500                                                      
+Sales                  950                                                      
+Sales                 1600                                                      
+
+DEPT_NAME           SALARY                                                      
+--------------- ----------                                                      
+Sales                 2850                                                      
+Sales                 1250                                                      
+Sales                 1250                                                      
+
+14 rows selected.
+
+Lab Problem 2
+
+Department Name          SALARY                                                 
+-------------------- ----------                                                 
+Accounting                 2450                                                 
+Accounting                 1300                                                 
+Management                 5000                                                 
+Operations                 1100                                                 
+Research                   3000                                                 
+Research                   2975                                                 
+Research                   3000                                                 
+Research                    800                                                 
+Sales                      1500                                                 
+Sales                       950                                                 
+Sales                      1600                                                 
+
+Department Name          SALARY                                                 
+-------------------- ----------                                                 
+Sales                      2850                                                 
+Sales                      1250                                                 
+Sales                      1250                                                 
+
+14 rows selected.
+
+Lab Problem 3
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Accounting                 $2450                                                
+Accounting                 $1300                                                
+Management                 $5000                                                
+Operations                 $1100                                                
+Research                   $3000                                                
+Research                   $2975                                                
+Research                   $3000                                                
+Research                    $800                                                
+Sales                      $1500                                                
+Sales                       $950                                                
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Sales                      $1600                                                
+Sales                      $2850                                                
+Sales                      $1250                                                
+Sales                      $1250                                                
+
+14 rows selected.
+
+Lab Problem 4
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Accounting                 $2450                                                
+                           $1300                                                
+                                                                                
+Management                 $5000                                                
+                                                                                
+Operations                 $1100                                                
+                                                                                
+Research                   $3000                                                
+                           $2975                                                
+                           $3000                                                
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Research                    $800                                                
+                                                                                
+Sales                      $1500                                                
+                            $950                                                
+                           $1600                                                
+                           $2850                                                
+                           $1250                                                
+                           $1250                                                
+                                                                                
+
+14 rows selected.
+
+Lab Problem 5
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Accounting                 $2450                                                
+                           $1300                                                
+******************** -----------                                                
+avg                        $1875                                                
+                                                                                
+Management                 $5000                                                
+******************** -----------                                                
+avg                        $5000                                                
+                                                                                
+Operations                 $1100                                                
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+******************** -----------                                                
+avg                        $1100                                                
+                                                                                
+Research                   $3000                                                
+                           $2975                                                
+                           $3000                                                
+                            $800                                                
+******************** -----------                                                
+avg                        $2444                                                
+                                                                                
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Sales                      $1500                                                
+                            $950                                                
+                           $1600                                                
+                           $2850                                                
+                           $1250                                                
+                           $1250                                                
+******************** -----------                                                
+avg                        $1567                                                
+                                                                                
+
+14 rows selected.
+
+Lab Problem 6
+
+Fri Nov 16                                                             page    1
+                                   TTitle of
+                                  Your Choice
+
+                             Get                                                
+Department Name             Paid                                                
+-------------------- -----------                                                
+Accounting                 $2450                                                
+                           $1300                                                
+******************** -----------                                                
+avg                        $1875                                                
+                                                                                
+Management                 $5000                                                
+******************** -----------                                                
+avg                        $5000                                                
+                                                                                
+Operations                 $1100                                                
+******************** -----------                                                
+avg                        $1100                                                
+                                                                                
+Research                   $3000                                                
+                           $2975                                                
+                           $3000                                                
+                            $800                                                
+******************** -----------                                                
+avg                        $2444                                                
+                                                                                
+Sales                      $1500                                                
+                            $950                                                
+                           $1600                                                
+                           $2850                                                
+                           $1250                                                
+                           $1250                                                
+******************** -----------                                                
+avg                        $1567                                                
+                                                                                
+Lab Problem 7

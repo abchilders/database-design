@@ -1,0 +1,172 @@
+
+=======================
+Homework 7 Problem 3
+=======================
+
+Alex Childers
+
+===== Problem 3-1 =====
+============
+3-1 query 1:
+
+CLIE CLIENT_LNAME    CLIENT_FNAME    CLIENT_P CLIENT_CREDIT_RTG CLI             
+---- --------------- --------------- -------- ----------------- ---             
+7777 Feta            Frank           777-7777                 0 500             
+2222 Beta            Bob             222-2222               1.2 200             
+6666 Epsilon         Emma            666-6666               2.1 400             
+9999 Harpo           Harry           999-9999               3.3 100             
+4444 Delta           David           222-2222               3.4 400             
+3333 Carlos          Ann             333-3333               3.8 300             
+8888 Greta           Gail            888-8888               4.4 200             
+1111 Alpha           Ann             111-1111               4.9 100             
+5555 Beta            Edie            555-5555                 5                 
+
+9 rows selected.
+
+============
+3-1 query 2:
+
+CLIE CLIENT_LNAME    CLIENT_FNAME    CLIENT_P CLIENT_CREDIT_RTG CLI             
+---- --------------- --------------- -------- ----------------- ---             
+5555 Beta            Edie            555-5555                 5                 
+1111 Alpha           Ann             111-1111               4.9 100             
+8888 Greta           Gail            888-8888               4.4 200             
+3333 Carlos          Ann             333-3333               3.8 300             
+4444 Delta           David           222-2222               3.4 400             
+9999 Harpo           Harry           999-9999               3.3 100             
+6666 Epsilon         Emma            666-6666               2.1 400             
+2222 Beta            Bob             222-2222               1.2 200             
+7777 Feta            Frank           777-7777                 0 500             
+
+9 rows selected.
+
+===== Problem 3-2 =====
+
+Movies with Ratings                                                             
+-----------------------------------------------                                 
+A: Clockwork Orange                                                             
+A: Midnight Cowboy                                                              
+G: All About Eve                                                                
+G: Babe                                                                         
+G: Gone with the Wind                                                           
+G: It's a Wonderful Life                                                        
+G: The Muppet Movie                                                             
+G: The Philadelphia Story                                                       
+G: Toy Story                                                                    
+G: Toy Story 2                                                                  
+PG: Indiana Jones and the Temple of Doom                                        
+
+Movies with Ratings                                                             
+-----------------------------------------------                                 
+PG: Return of the Jedi                                                          
+PG: Star Wars                                                                   
+PG: The Empire Strikes Back                                                     
+PG: The Phantom Menace                                                          
+PG-13: Indiana Jones and the Last Crusade                                       
+R: Fatal Attraction                                                             
+R: One Flew Over the Cuckoo's Nest                                              
+R: The Blues Brothers                                                           
+R: The Matrix                                                                   
+
+20 rows selected.
+
+===== Problem 3-3 =====
+
+CATEGORY_N MOVIE_TITLE                              MOVIE                       
+---------- ---------------------------------------- -----                       
+Drama      Clockwork Orange                         A                           
+Drama      Midnight Cowboy                          A                           
+Family     Babe                                     G                           
+Family     The Muppet Movie                         G                           
+Family     Toy Story                                G                           
+Family     Toy Story 2                              G                           
+Classic    All About Eve                            G                           
+Classic    Gone with the Wind                       G                           
+Classic    It's a Wonderful Life                    G                           
+Classic    The Philadelphia Story                   G                           
+Action     Indiana Jones and the Temple of Doom     PG                          
+
+CATEGORY_N MOVIE_TITLE                              MOVIE                       
+---------- ---------------------------------------- -----                       
+Action     Return of the Jedi                       PG                          
+Action     Star Wars                                PG                          
+Action     The Empire Strikes Back                  PG                          
+Action     The Phantom Menace                       PG                          
+Action     Indiana Jones and the Last Crusade       PG-13                       
+Drama      Fatal Attraction                         R                           
+Drama      One Flew Over the Cuckoo's Nest          R                           
+Comedy     The Blues Brothers                       R                           
+Action     The Matrix                               R                           
+
+20 rows selected.
+
+===== Problem 3-4 =====
+
+CLIENT_LNAME    CLIENT_P CLIENT_CREDIT_RTG                                      
+--------------- -------- -----------------                                      
+Beta            555-5555                 5                                      
+Alpha           111-1111               4.9                                      
+Greta           888-8888               4.4                                      
+Carlos          333-3333               3.8                                      
+Delta           222-2222               3.4                                      
+Harpo           999-9999               3.3                                      
+
+6 rows selected.
+
+===== Problem 3-5 =====
+
+VID_FOR        QTY AVG RENTAL PRICE                                             
+------- ---------- ----------------                                             
+Blu-Ray         23             2.39                                             
+DVD             15       4.85666667                                             
+HD-DVD           4             1.14                                             
+
+===== Problem 3-6 =====
+
+VID_FOR        QTY AVG RENTAL PRICE                                             
+------- ---------- ----------------                                             
+HD-DVD           4             1.14                                             
+DVD             15       4.85666667                                             
+Blu-Ray         23             2.39                                             
+
+===== Problem 3-7 =====
+
+VID_RENTAL_PRICE     # VIDS                                                     
+---------------- ----------                                                     
+            5.99          6                                                     
+            4.99          3                                                     
+            3.99          5                                                     
+            2.99          8                                                     
+            2.19          6                                                     
+            1.99         10                                                     
+            1.29          2                                                     
+             .99          2                                                     
+
+8 rows selected.
+
+===== Problem 3-8 =====
+
+VID_RENTAL_PRICE     # VIDS                                                     
+---------------- ----------                                                     
+            5.99          6                                                     
+            3.99          5                                                     
+            2.99          8                                                     
+            2.19          6                                                     
+            1.99         10                                                     
+
+===== Problem 3-9 =====
+
+CATEGORY_N   # MOVIES                                                           
+---------- ----------                                                           
+Action              7                                                           
+Classic             4                                                           
+Family              4                                                           
+Drama               4                                                           
+Comedy              1                                                           
+
+===== Problem 3-10 =====
+
+AVG # PER PRICE                                                                 
+---------------                                                                 
+           5.25                                                                 
+

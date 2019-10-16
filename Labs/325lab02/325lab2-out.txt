@@ -1,0 +1,64 @@
+Alex Childers
+Jacob Konicke
+
+Table dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ NAME                                      NOT NULL VARCHAR2(300)
+ PREMIERE                                           DATE
+ TICKET_PRICE                                       NUMBER(38)
+ RATING                                             VARCHAR2(5)
+
+
+NAME                                                                            
+--------------------------------------------------------------------------------
+PREMIERE  TICKET_PRICE RATIN                                                    
+--------- ------------ -----                                                    
+Harry Potter and the Sorcerers Stone                                            
+31-AUG-18            4 PG-13                                                    
+                                                                                
+Superfast Racy Boom                                                             
+31-AUG-18            6 PG-18                                                    
+                                                                                
+Kikis Delivery Service                                                          
+01-MAR-00            1 G                                                        
+                                                                                
+
+NAME                                                                            
+--------------------------------------------------------------------------------
+PREMIERE  TICKET_PRICE RATIN                                                    
+--------- ------------ -----                                                    
+Pow Pow Shooty Bang Bang                                                        
+31-AUG-18           20 XRPG3                                                    
+                                                                                
+Santa Jaws                                                                      
+20-AUG-17           10 R                                                        
+                                                                                
+Butter                                                                          
+02-JAN-03            7 R                                                        
+                                                                                
+
+6 rows selected.
+

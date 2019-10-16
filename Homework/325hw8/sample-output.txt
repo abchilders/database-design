@@ -1,0 +1,382 @@
+
+=======================
+Homework 8 Problem 3
+=======================
+
+Your Name
+
+************
+problem 3-2
+
+MOVIE                                                                           
+-----                                                                           
+10001                                                                           
+10002                                                                           
+10003                                                                           
+30001                                                                           
+30002                                                                           
+30003                                                                           
+
+6 rows selected.
+
+************
+problem 3-3
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+Babe                                                                            
+Gone with the Wind                                                              
+It's a Wonderful Life                                                           
+The Muppet Movie                                                                
+Toy Story                                                                       
+Toy Story 2                                                                     
+
+6 rows selected.
+
+************
+problem 3-4
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+All About Eve                                                                   
+Babe                                                                            
+Clockwork Orange                                                                
+Fatal Attraction                                                                
+Indiana Jones and the Last Crusade                                              
+Midnight Cowboy                                                                 
+Return of the Jedi                                                              
+The Blues Brothers                                                              
+The Matrix                                                                      
+The Philadelphia Story                                                          
+
+10 rows selected.
+
+************
+problem 3-5
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+230064             5.99                                                         
+230073             5.99                                                         
+230074             5.99                                                         
+330033             5.99                                                         
+330034             5.99                                                         
+230043             3.99                                                         
+230052             3.99                                                         
+330012             3.99                                                         
+220061             2.99                                                         
+220063             2.99                                                         
+220071             2.99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220072             2.99                                                         
+320031             2.99                                                         
+220021             2.19                                                         
+420021             2.19                                                         
+420031             2.19                                                         
+420042             2.19                                                         
+120021             1.99                                                         
+120041             1.99                                                         
+120051             1.99                                                         
+130061             1.99                                                         
+220032             1.99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220042             1.99                                                         
+220051             1.99                                                         
+320011             1.99                                                         
+320021             1.99                                                         
+320022             1.99                                                         
+210041             1.29                                                         
+410041             1.29                                                         
+210011              .99                                                         
+210031              .99                                                         
+
+31 rows selected.
+
+************
+problem 3-6
+
+CLIE                                                                            
+----                                                                            
+4444                                                                            
+9999                                                                            
+
+************
+problem 3-7
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+120011           4                                                              
+130012           3                                                              
+130031           3                                                              
+210011           2                                                              
+210031           2                                                              
+130022           1                                                              
+210041           1                                                              
+220013           1                                                              
+220062           1                                                              
+230012           1                                                              
+230033           1                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+320032           1                                                              
+330023           1                                                              
+420011           1                                                              
+120021           0                                                              
+120041           0                                                              
+120051           0                                                              
+130061           0                                                              
+220021           0                                                              
+220032           0                                                              
+220042           0                                                              
+220051           0                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+220061           0                                                              
+220063           0                                                              
+220071           0                                                              
+220072           0                                                              
+230043           0                                                              
+230052           0                                                              
+230064           0                                                              
+230073           0                                                              
+230074           0                                                              
+320011           0                                                              
+320021           0                                                              
+
+VID_ID NUM_RENTALS                                                              
+------ -----------                                                              
+320022           0                                                              
+320031           0                                                              
+330012           0                                                              
+330033           0                                                              
+330034           0                                                              
+410041           0                                                              
+420021           0                                                              
+420031           0                                                              
+420042           0                                                              
+
+42 rows selected.
+
+************
+problem 3-8
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+120011             2.99                                                         
+120021             1.99                                                         
+210011              .99                                                         
+220013             2.19                                                         
+220021             2.19                                                         
+320011             1.99                                                         
+320021             1.99                                                         
+320022             1.99                                                         
+320031             2.99                                                         
+320032             2.99                                                         
+210031              .99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220032             1.99                                                         
+210041             1.29                                                         
+220042             1.99                                                         
+220051             1.99                                                         
+220061             2.99                                                         
+220062             2.99                                                         
+220063             2.99                                                         
+420011             2.19                                                         
+420021             2.19                                                         
+420031             2.19                                                         
+120041             1.99                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+120051             1.99                                                         
+410041             1.29                                                         
+420042             2.19                                                         
+220071             2.99                                                         
+220072             2.99                                                         
+
+27 rows selected.
+
+
+27 rows updated.
+
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+120011             2.24                                                         
+120021             1.49                                                         
+210011              .74                                                         
+220013             1.64                                                         
+220021             1.64                                                         
+320011             1.49                                                         
+320021             1.49                                                         
+320022             1.49                                                         
+320031             2.24                                                         
+320032             2.24                                                         
+210031              .74                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+220032             1.49                                                         
+210041              .97                                                         
+220042             1.49                                                         
+220051             1.49                                                         
+220061             2.24                                                         
+220062             2.24                                                         
+220063             2.24                                                         
+420011             1.64                                                         
+420021             1.64                                                         
+420031             1.64                                                         
+120041             1.49                                                         
+
+VID_ID VID_RENTAL_PRICE                                                         
+------ ----------------                                                         
+120051             1.49                                                         
+410041              .97                                                         
+420042             1.64                                                         
+220071             2.24                                                         
+220072             2.24                                                         
+
+27 rows selected.
+
+************
+problem 3-9
+
+CLIENT_LNAME    CLIENT_CREDIT_RTG                                               
+--------------- -----------------                                               
+Feta                            0                                               
+Beta                          1.2                                               
+Epsilon                       2.1                                               
+Harpo                         3.3                                               
+Delta                         3.4                                               
+Carlos                        3.8                                               
+Greta                         4.4                                               
+Alpha                         4.9                                               
+Beta                            5                                               
+
+9 rows selected.
+
+
+3 rows updated.
+
+
+CLIENT_LNAME    CLIENT_CREDIT_RTG                                               
+--------------- -----------------                                               
+Feta                            0                                               
+Beta                          1.2                                               
+Epsilon                       2.1                                               
+Harpo                         3.8                                               
+Delta                         3.9                                               
+Carlos                        4.4                                               
+Greta                         4.4                                               
+Alpha                         4.9                                               
+Beta                            5                                               
+
+9 rows selected.
+
+************
+problem 3-10
+
+RENTAL_ CLIENT                          VID_ID DATE_OUT                         
+------- ------------------------------- ------ ---------                        
+0000008 Ann Alpha                       130022 04-SEP-18                        
+0000018 Ann Alpha                       220062 21-SEP-18                        
+0000002 Bob Beta                        130031 19-SEP-18                        
+0000003 Bob Beta                        130012 03-SEP-18                        
+0000016 Bob Beta                        330023 11-SEP-18                        
+0000001 Edie Beta                       120011 21-SEP-18                        
+0000017 Edie Beta                       220013 22-SEP-18                        
+0000022 Edie Beta                       210031 16-SEP-18                        
+0000004 Ann Carlos                      130012 21-SEP-18                        
+0000005 Ann Carlos                      210011 08-AUG-18                        
+0000007 Ann Carlos                      120011 15-SEP-18                        
+
+RENTAL_ CLIENT                          VID_ID DATE_OUT                         
+------- ------------------------------- ------ ---------                        
+0000015 Ann Carlos                      420011 01-SEP-18                        
+0000019 Ann Carlos                      320032 06-SEP-18                        
+0000023 David Delta                     120011 16-SEP-18                        
+0000009 Emma Epsilon                    130012 13-SEP-18                        
+0000021 Emma Epsilon                    210011 15-SEP-18                        
+0000010 Frank Feta                      120011 14-SEP-18                        
+0000020 Frank Feta                      130031 29-AUG-18                        
+0000024 Frank Feta                      130031 08-SEP-18                        
+0000011 Gail Greta                      230012 05-SEP-18                        
+0000012 Harry Harpo                     210031 10-SEP-18                        
+0000013 Harry Harpo                     210041 10-SEP-18                        
+
+RENTAL_ CLIENT                          VID_ID DATE_OUT                         
+------- ------------------------------- ------ ---------                        
+0000014 Harry Harpo                     230033 10-SEP-18                        
+
+23 rows selected.
+
+
+5 rows deleted.
+
+
+RENTAL_ CLIENT                          VID_ID DATE_OUT                         
+------- ------------------------------- ------ ---------                        
+0000008 Ann Alpha                       130022 04-SEP-18                        
+0000018 Ann Alpha                       220062 21-SEP-18                        
+0000002 Bob Beta                        130031 19-SEP-18                        
+0000003 Bob Beta                        130012 03-SEP-18                        
+0000016 Bob Beta                        330023 11-SEP-18                        
+0000001 Edie Beta                       120011 21-SEP-18                        
+0000017 Edie Beta                       220013 22-SEP-18                        
+0000022 Edie Beta                       210031 16-SEP-18                        
+0000023 David Delta                     120011 16-SEP-18                        
+0000009 Emma Epsilon                    130012 13-SEP-18                        
+0000021 Emma Epsilon                    210011 15-SEP-18                        
+
+RENTAL_ CLIENT                          VID_ID DATE_OUT                         
+------- ------------------------------- ------ ---------                        
+0000010 Frank Feta                      120011 14-SEP-18                        
+0000020 Frank Feta                      130031 29-AUG-18                        
+0000024 Frank Feta                      130031 08-SEP-18                        
+0000011 Gail Greta                      230012 05-SEP-18                        
+0000012 Harry Harpo                     210031 10-SEP-18                        
+0000013 Harry Harpo                     210041 10-SEP-18                        
+0000014 Harry Harpo                     230033 10-SEP-18                        
+
+18 rows selected.
+
+************
+problem 3-11
+
+current # videos                                                                
+----------------                                                                
+              42                                                                
+
+
+30 rows deleted.
+
+
+VID_ID VID_FOR VID_PURCH VID_RENTAL_PRICE MOVIE                                 
+------ ------- --------- ---------------- -----                                 
+120011 Blu-Ray 11-JAN-10             2.24 10001                                 
+130012 DVD     22-FEB-11             4.99 10001                                 
+130022 DVD     04-MAR-12             5.99 10002                                 
+130031 DVD     22-FEB-11             4.99 10003                                 
+210011 HD-DVD  05-MAY-09              .74 20001                                 
+210031 HD-DVD  05-MAY-08              .74 20003                                 
+210041 HD-DVD  05-MAY-08              .97 20004                                 
+220013 Blu-Ray 05-APR-08             1.64 20001                                 
+220062 Blu-Ray 01-DEC-11             2.24 20006                                 
+230012 DVD     01-JAN-10             3.99 20001                                 
+230033 DVD     17-AUG-10             3.99 20003                                 
+
+VID_ID VID_FOR VID_PURCH VID_RENTAL_PRICE MOVIE                                 
+------ ------- --------- ---------------- -----                                 
+330023 DVD     07-JUN-09             4.99 30002                                 
+
+12 rows selected.
+
+   

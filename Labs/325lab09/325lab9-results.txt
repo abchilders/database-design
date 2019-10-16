@@ -1,0 +1,91 @@
+Muranda Kozlowicz, Alex Childers
+lab query 1
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+400 Operations      Boston                                                      
+300 Sales           Chicago                                                     
+200 Research        Dallas                                                      
+500 Management      New York                                                    
+100 Accounting      New York                                                    
+
+lab query 2
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+100 Accounting      New York                                                    
+500 Management      New York                                                    
+400 Operations      Boston                                                      
+200 Research        Dallas                                                      
+300 Sales           Chicago                                                     
+
+Lab query 3
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Raimi           Accounting            2450 09-JUN-91                            
+Miller          Accounting            1300 23-JAN-92                            
+King            Management            5000 17-NOV-91                            
+Adams           Operations            1100 23-SEP-91                            
+Smith           Research               800 17-DEC-90                            
+Jones           Research              2975 02-APR-91                            
+Scott           Research              3000 09-NOV-91                            
+Ford            Research              3000 03-DEC-91                            
+Michaels        Sales                 1600 20-FEB-91                            
+Ward            Sales                 1250 22-FEB-91                            
+Blake           Sales                 2850 01-MAY-91                            
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Turner          Sales                 1500 08-SEP-91                            
+Martin          Sales                 1250 28-SEP-91                            
+James           Sales                  950 03-DEC-91                            
+
+14 rows selected.
+
+Lab query 4
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+King            Management            5000 17-NOV-91                            
+Scott           Research              3000 09-NOV-91                            
+Ford            Research              3000 03-DEC-91                            
+Jones           Research              2975 02-APR-91                            
+Blake           Sales                 2850 01-MAY-91                            
+Raimi           Accounting            2450 09-JUN-91                            
+Michaels        Sales                 1600 20-FEB-91                            
+Turner          Sales                 1500 08-SEP-91                            
+Miller          Accounting            1300 23-JAN-92                            
+Ward            Sales                 1250 22-FEB-91                            
+Martin          Sales                 1250 28-SEP-91                            
+
+EMPL_LAST_NAME  DEPT_NAME           SALARY HIREDATE                             
+--------------- --------------- ---------- ---------                            
+Adams           Operations            1100 23-SEP-91                            
+James           Sales                  950 03-DEC-91                            
+Smith           Research               800 17-DEC-90                            
+
+14 rows selected.
+
+Lab query 5
+
+MGR  MIN(HIRED                                                                  
+---- ---------                                                                  
+     17-NOV-91                                                                  
+7902 17-DEC-90                                                                  
+7839 02-APR-91                                                                  
+7566 09-NOV-91                                                                  
+7698 20-FEB-91                                                                  
+7782 23-JAN-92                                                                  
+7788 23-SEP-91                                                                  
+
+7 rows selected.
+
+Lab query 6
+
+MGR  MIN(HIRED                                                                  
+---- ---------                                                                  
+7902 17-DEC-90                                                                  
+7839 02-APR-91                                                                  
+7698 20-FEB-91                                                                  
+

@@ -1,0 +1,20 @@
+Alex Childers
+Last modified: 10/05/2018
+
+Scenario selection: Loving Care Pet Boarding 
+
+Some questions people might ask in this scenario:
+1.) How many people are enrolled in X pet training class?
+2.) When do we expect dog Y to be picked up from daycare by their owner? 
+3.) Which volunteers are trained to handle cats?    
+4.) What are the qualifications/training of our paid employees?  
+5.) In case of an emergency, what are the phone numbers of cat Z's owner?
+
+Business rules:
+1.) Unless otherwise allowed by a class instructor, there may only be up
+	to 15 people enrolled in any given pet training class at a time. 
+2.) Volunteers must be trained to handle cats and/or dogs before they can 
+	walk and play with them. 
+3.) Owners may specify special needs for each pet when they are making an
+	appointment for their pet (e.g. administering medication, 
+	grooming instructions), but this is optional. 

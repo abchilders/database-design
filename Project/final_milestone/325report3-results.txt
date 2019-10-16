@@ -1,0 +1,28 @@
+
+Fri Dec 07                                                             page    1
+                         Employee Retention and Status
+
+Position                Monthly Pay Name              Start Date                
+----------------------- ----------- ----------------- -------------------       
+Animal Care Associate..    $1155.00 Jovan Gale        January   23, 2008        
+                           $1154.00 Josef Finley      August    30, 2008        
+                           $1153.00 Aubree Cole       September 11, 2016        
+                           $1150.50 Scott Millar      October   20, 2017        
+*********************** -----------                                             
+Average salary:            $1153.13                                             
+                                                                                
+Groomer................    $1538.50 Konrad Goddard    February  12, 2008        
+                           $1541.00 Daphne Villanueva March     20, 2010        
+*********************** -----------                                             
+Average salary:            $1539.75                                             
+                                                                                
+Teacher................    $1540.00 Marian Sosa       April     06, 2011        
+                           $1545.00 Fannie Paine      May       01, 2012        
+*********************** -----------                                             
+Average salary:            $1542.50                                             
+                                                                                
+Veterinarian...........    $3461.50 Dua Mcknight      January   23, 2008        
+                           $3455.00 Tala Grey         June      27, 2013        
+*********************** -----------                                             
+Average salary:            $3458.25                                             
+                                                                                

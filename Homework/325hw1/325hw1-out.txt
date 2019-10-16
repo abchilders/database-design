@@ -1,0 +1,9 @@
+
+NAME                        AGE S                                               
+-------------------- ---------- -                                               
+Kiwi                         12 F                                               
+Maya                         10 F                                               
+Othello                       3 M                                               
+Windsor                       3 M                                               
+Frances                       9 F                                               
+

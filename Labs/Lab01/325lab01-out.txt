@@ -1,0 +1,14 @@
+
+Table dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+  STUFF_ID STUFF_NAME                                                           
+---------- ----------                                                           
+         7 widget                                                               
+

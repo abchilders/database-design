@@ -1,0 +1,94 @@
+Alex Childers
+
+Problem 2-1:
+------------
+Choc_Bar_Type(BAR_ID, bar_brand, bar_name, bar_cacao_pct)
+Choc_Sizes_Sold(BAR_ID, BAR_SIZE_AVLBL)
+	foreign key (bar_id) references Choc_Bar_Type 
+
+Problem 2-2:
+------------
+Student(STU_ID, stu_lname, stu_primary_email)
+
+Course(COURSE_SECT_ID, course_num, course_name, course_num_units)
+
+Stu_Course_Reg(STU_ID, COURSE_SECT_ID, reg_date, final_grade) 
+	foreign key (stu_id) references Student, 
+	foreign key (course_sect_id) references Course
+
+Problem 2-3:
+------------
+Music_Period(MUSIC_PERIOD_ID, music_period_name, music_period_year_begins)
+
+Symphony(SYMPH_ID, symph_title, symph_year_completed, composer_id, 
+	music_period_id)
+	foreign key (composer_id) references Composer,
+	foreign key (music_period_id) references Music_Period
+
+Problem 2-4 Part 1
+------------------
+Volunteer_Record(VOL_NUM, PROJ_NUM, vol_lname, vol_fname, proj_name, 
+	total_hrs_worked, task_type_code, task_type_descr)
+
+Problem 2-4 Part 2
+------------------
+Volunteer(VOL_NUM, vol_lname, vol_fname)
+
+Project(PROJ_NUM, proj_name)
+
+Volunteer_Record(VOL_NUM, PROJ_NUM, total_hrs_worked, task_type_code, 
+	task_type_descr)
+	foreign key (vol_num) references Volunteer, 
+	foreign key (proj_num) references Project
+
+Problem 2-4 Part 3
+------------------
+Volunteer(VOL_NUM, vol_lname, vol_fname)
+
+Project(PROJ_NUM, proj_name)
+
+Task_Type(TASK_TYPE_CODE, task_type_descr)
+
+Volunteer_Record(VOL_NUM, PROJ_NUM, total_hrs_worked, task_type_code)
+        foreign key (vol_num) references Volunteer,
+        foreign key (proj_num) references Project,
+	foreign key (task_type_code) references Task_Type
+
+Problem 2-5 Part 1
+------------------
+R1 (A, B, C, D, e, f, h, i, j, k, l, m, n, o)
+
+R2_1NF (A, B, C, D, G)
+        foreign key (a, b, c, d) references R1
+
+Problem 2-5 Part 2
+------------------
+R3_2NF (A, C, o)
+
+R4_2NF (D, n)
+
+R1 (A, B, C, D, e, f, h, i, j, k, l, m)
+	foreign key (a, c) references R3_2NF
+	foreign key (d) references R4_2NF
+
+R2_1NF (A, B, C, D, G)
+        foreign key (a, b, c, d) references R1
+
+Problem 2-5 Part 3
+------------------
+R3_2NF (A, C, o)
+
+R4_2NF (D, n)
+
+R5_3NF (H, m)
+
+R6_3NF (E, F, k, l)
+
+R1 (A, B, C, D, e, f, h, i, j)
+        foreign key (a, c) references R3_2NF
+        foreign key (d) references R4_2NF
+	foreign key (h) references R5_3NF
+	foreign key (e, f) references R6_3NF
+
+R2_1NF (A, B, C, D, G)
+        foreign key (a, b, c, d) references R1

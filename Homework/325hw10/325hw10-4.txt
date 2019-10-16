@@ -1,0 +1,110 @@
+Alex Childers
+CS 325 - Fall 2018
+Last modified: November 30, 2018
+
+================================================================================
+For Problems 4-1 through 4-3: You have a transaction log, in which all 
+transaction operations since the last complete database backup are recorded in 
+chronological order. A failure occurs at time X, and recovery is begun by 
+starting with the last complete database state. In this system, recovery is done 
+using *rollforward*, as discussed in lecture.
+================================================================================
+
+
+Problem 4-1: In looking at the transaction log during recovery, it is discovered 
+that transaction T1 had been rolled back/aborted before time X. Will its logged 
+actions be re-done as part of the recovery process? 
+--------------------------------------------------------------------------------
+No, T1's actions will not be re-done. 
+
+
+Problem 4-2: In looking at the transaction log during recovery, it is discovered
+that transaction T2 had been committed before time X. Will its logged actions be
+re-done as part of the recovery process?
+--------------------------------------------------------------------------------
+Yes, T2's logged actions will be re-done.
+
+
+Problem 4-3: In looking at the transaction log during recovery, it is discovered
+that transaction T3 had not yet been committed or aborted before time X. Will 
+its logged actions be re-done as part of the recovery process?
+--------------------------------------------------------------------------------
+No, T3's logged actions will not be re-done. 
+
+
+================================================================================
+For Problems 4-4 through 4-5: Assume that:
+* A, B, and C are data items. 
+* T1, T2, T3, and T4 are transactions. 
+* The DBMS is using binary locks for concurrency control. 
+
+And, currently: 
+* T1 has a binary lock on data item A. 
+* T2 has a binary lock on data item C. 
+* All other data items are currently unlocked. 
+================================================================================
+
+
+Problem 4-4: T3 requests a binary lock on B. Will T3 obtain the lock at this 
+point, or will T3 have to wait? 
+--------------------------------------------------------------------------------
+T3 will obtain the lock. 
+
+
+Problem 4-5: T4 requests a binary lock on C. Will T4 obtain the lock at this 
+point, or will T4 have to wait?
+--------------------------------------------------------------------------------
+T4 will have to wait. 
+
+
+================================================================================
+For Problems 4-6 through 4-11: Assume that:
+* A, B, C, and D are data items. 
+* T1, T2, T3, T4, T5, and T6 are transactions. 
+* Your DBMS is using *shared/exclusive locks* for concurrency control. 
+
+And, currently: 
+* T1 has an exclusive/write lock on data item A. 
+* T2 has a shared/read lock on data item C. 
+* All other data items are currently unlocked. 
+================================================================================
+
+
+Problem 4-6: Consider the operations Read and Write. Which of these can T1 do to 
+A, given its locked (read, write, neither read nor write, or both read and 
+write?)
+--------------------------------------------------------------------------------
+Both read and write. 
+
+
+Problem 4-7: Consider the operations Read and Write. Which of these can T2 do to
+C, given its lock (read, write, neither read nor write, or both read and write?) 
+--------------------------------------------------------------------------------
+Read. 
+
+
+Problem 4-8: T3 requests an exclusive lock on D. Will T3 obtain the lock at this 
+point, or will T3 have to wait? 
+--------------------------------------------------------------------------------
+T3 will obtain the lock at this point. 
+
+
+Problem 4-9: T4 requests a shared lock on C. Will T4 obtain the lock at this 
+point, or will T4 have to wait?
+--------------------------------------------------------------------------------
+T4 will obtain the lock at this point. 
+
+
+Problem 4-10: T5 requests an exclusive lock on C. Will T5 obtain the lock at
+this point, or will T5 have to wait?
+--------------------------------------------------------------------------------
+T5 will have to wait. 
+
+
+Problem 4-11: T6 requests a shared lock on B. Will T6 obtain the lock at this 
+point, or will T6 have to wait?
+--------------------------------------------------------------------------------
+T6 will obtain the lock at this point. 
+
+
+

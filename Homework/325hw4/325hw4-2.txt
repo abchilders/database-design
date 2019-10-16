@@ -1,0 +1,67 @@
+Alex Childers
+CS 325 - Homework 4 - Problem 2
+Last modified: 09/22/2018
+
+
+PART A:
+
+Vid_purchase_date	Vid_format
+----------------------------------
+11-JAN-2013		DVD	
+22-FEB-2014		HD-DVD
+03-MAR-2012		BluRay
+22-FEB-2014		HD-DVD
+04-APR-2010		BluRay
+
+
+PART B:
+
+Vid_id    Vid_format    Vid_purchase_date    Vid_rental_price    Vid_length
+---------------------------------------------------------------------------
+11111H    HD-DVD	22-FEB-2014	     4.99		 91
+33333H	  HD-DVD	22-FEB-2014	     3.99		 69
+
+
+PART C: 
+
+There would be 35 rows in the Cartesian product of the Client and Rental 
+relations. 
+
+
+PART D:
+
+Client.Cli_id    Cli_lname    Cli_fname    Cli_phone    Vid_id
+--------------------------------------------------------------
+000A		 Alpha	      Ann	   000-0001	44444B
+111B		 Beta	      Bob	   111-1112	11111H
+222B		 Beta	      Ann	   222-2223	00000D
+222B		 Beta	      Ann	   222-2223	22222B
+333C		 Carlos	      David	   333-3334	22222B
+333C             Carlos       David        333-3334     00000D         
+333C             Carlos       David        333-3334     11111H
+
+
+PART E:
+
+PROJECTION could be used to result in a relation containing just the client
+last names and client phone numbers from Client. 
+
+
+PART F:
+
+A NATURAL JOIN could be used to result in a single relation containing only
+the attributes Vid_id, Vid_format, Vid_purchase_date, Vid_rental_price, 
+Vid_length, and Cli_id. 
+
+
+PART G:
+
+An EQUI-JOIN could be used to result in a relation containing the attributes
+Video.Vid_id, Vid_format, Vid_purchase_date, Vid_rental_price, Vid_length,
+Rental.Vid_id, and Cli_id. 
+
+
+PART H:
+
+SELECTION could be used to result in a relation containing all of the Video
+attributes for videos whose rental price is more than 2.00.

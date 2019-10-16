@@ -1,0 +1,165 @@
+=======================
+Homework 6 Problem 2
+=======================
+
+Alex Childers
+
+===== Problem 2-1 =====
+
+AVG(VID_RENTAL_PRICE)                                                           
+---------------------                                                           
+           3.15190476                                                           
+
+===== Problem 2-2 =====
+
+VID_ID                                                                          
+------                                                                          
+130012                                                                          
+130022                                                                          
+130031                                                                          
+230012                                                                          
+330012                                                                          
+330023                                                                          
+330033                                                                          
+330034                                                                          
+230033                                                                          
+230043                                                                          
+230052                                                                          
+
+VID_ID                                                                          
+------                                                                          
+230064                                                                          
+230073                                                                          
+230074                                                                          
+
+14 rows selected.
+
+===== Problem 2-3 =====
+
+CLIENT_FNAME    CLIENT_LNAME                                                    
+--------------- ---------------                                                 
+Bob             Beta                                                            
+Ann             Carlos                                                          
+Emma            Epsilon                                                         
+
+===== Problem 2-4 =====
+Enter value for dir_lname: Spielberg
+old   3: where	movie_director_lname = '&dir_lname'
+new   3: where	movie_director_lname = 'Spielberg'
+
+MOVIE_TITLE                              MOVIE                                  
+---------------------------------------- -----                                  
+Indiana Jones and the Temple of Doom     PG                                     
+Indiana Jones and the Last Crusade       PG-13                                  
+
+===== Problem 2-5 =====
+Enter value for category: Classic
+old   6: 	 where 	category_name = '&category')
+new   6: 	 where 	category_name = 'Classic')
+
+MOVIE_TITLE                              MOVI                                   
+---------------------------------------- ----                                   
+Gone with the Wind                       1939                                   
+It's a Wonderful Life                    1947                                   
+All About Eve                            1950                                   
+The Philadelphia Story                   1940                                   
+
+===== Problem 2-6 =====
+
+Movies with Ratings                                                             
+-----------------------------------------------                                 
+G: Gone with the Wind                                                           
+G: It's a Wonderful Life                                                        
+G: The Muppet Movie                                                             
+PG: Indiana Jones and the Temple of Doom                                        
+PG-13: Indiana Jones and the Last Crusade                                       
+G: Babe                                                                         
+G: Toy Story                                                                    
+G: Toy Story 2                                                                  
+PG: Star Wars                                                                   
+PG: The Empire Strikes Back                                                     
+PG: Return of the Jedi                                                          
+
+Movies with Ratings                                                             
+-----------------------------------------------                                 
+PG: The Phantom Menace                                                          
+R: One Flew Over the Cuckoo's Nest                                              
+A: Midnight Cowboy                                                              
+A: Clockwork Orange                                                             
+G: All About Eve                                                                
+G: The Philadelphia Story                                                       
+R: Fatal Attraction                                                             
+R: The Matrix                                                                   
+R: The Blues Brothers                                                           
+
+20 rows selected.
+
+===== Problem 2-7 =====
+
+Movies                                                                          
+-----------------------------------------------                                 
+Gone with the Wind (1939)                                                       
+It's a Wonderful Life (1947)                                                    
+The Muppet Movie (1979)                                                         
+Indiana Jones and the Temple of Doom (1984)                                     
+Indiana Jones and the Last Crusade (1989)                                       
+Babe (1995)                                                                     
+Toy Story (1995)                                                                
+Toy Story 2 (1999)                                                              
+Star Wars (1977)                                                                
+The Empire Strikes Back (1980)                                                  
+Return of the Jedi (1983)                                                       
+
+Movies                                                                          
+-----------------------------------------------                                 
+The Phantom Menace (1999)                                                       
+One Flew Over the Cuckoo's Nest (1975)                                          
+Midnight Cowboy (1969)                                                          
+Clockwork Orange (1971)                                                         
+All About Eve (1950)                                                            
+The Philadelphia Story (1940)                                                   
+Fatal Attraction (1987)                                                         
+The Matrix (1999)                                                               
+The Blues Brothers (1980)                                                       
+
+20 rows selected.
+
+===== Problem 2-8 =====
+
+CLIENT_LNAME    CLIENT_P                                                        
+--------------- --------                                                        
+Alpha           111-1111                                                        
+Beta            222-2222                                                        
+Carlos          333-3333                                                        
+Beta            555-5555                                                        
+Epsilon         666-6666                                                        
+Greta           888-8888                                                        
+
+6 rows selected.
+
+===== Problem 2-9 =====
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+Gone with the Wind                                                              
+It's a Wonderful Life                                                           
+The Muppet Movie                                                                
+All About Eve                                                                   
+The Philadelphia Story                                                          
+The Blues Brothers                                                              
+Indiana Jones and the Last Crusade                                              
+Return of the Jedi                                                              
+The Phantom Menace                                                              
+The Matrix                                                                      
+Babe                                                                            
+
+MOVIE_TITLE                                                                     
+----------------------------------------                                        
+Toy Story                                                                       
+Toy Story 2                                                                     
+One Flew Over the Cuckoo's Nest                                                 
+Midnight Cowboy                                                                 
+Clockwork Orange                                                                
+
+16 rows selected.
+

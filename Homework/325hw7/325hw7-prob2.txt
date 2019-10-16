@@ -1,0 +1,41 @@
+Alex Childers
+CS 325
+HW 7 Problem 2
+Last modified 10/27/2018
+
+Problem 2 part a
+-----------------
+The posted SQL style standard that specifically applies to SELECT statement
+ORDER BY clauses: 
+
+"THOU SHALT only use ORDER BY clauses for an outermost SELECT (not within any
+sub-selects), and it shall be indented to make clear that it "belongs" to the 
+outermost SELECT." 
+
+Problem 2 part b
+-----------------
+The posted SQL style standard that specifically applies to SELECT statement
+GROUP BY clauses:
+
+"THOU SHALT" only use GROUP BY clauses when one has a good reason (usually a 
+computation that you wish done to those groups)."
+
+Problem 2 part c 
+-----------------
+The posted SQL style standard that applies to any nested SELECT statement:
+
+"THOU SHALT surround each nested select statement with a set of parentheses
+()."  
+
+Problem 2 part d
+-----------------
+The two posted SQL style standards that apply specifically to the EXISTS and 
+NOT EXISTS predicates: 
+
+"When using EXISTS or NOT EXISTS
+	- its sub-select argument is EXPECTED to include an appropriate 
+	  correlation condition
+	- its sub-select argument is EXPECTED to project a literal (since
+	  these predicates only "care" if any rows exist in that sub-select's
+	  results, NOT those rows' contents, and why bother doing much work 
+	  projecting those contents, then?)"

@@ -1,0 +1,97 @@
+Alex Childers
+CS 325 - Fall 2018
+Last modified: November 29, 2018
+
+
+Problem 3-1: This is being supported (to at least some degree) in the Oracle
+DBMS by refusal to allow the insertion of an attribute value that is not the 
+given type for that attribute (based on the type declaration for that 
+attribute):
+-------------------------------------------------------------------------------
+Domain integrity. 
+
+
+Problem 3-2: This is being supported when a DBMS does not permit the insertion 
+of a row with the same primary key as an already existing row in that table:
+-------------------------------------------------------------------------------
+Entity integrity.
+
+
+Problem 3-3: This is being supported when a DBMS does not permit the insertion
+of a row with a foreign key value for which there is not a corresponding 
+primary key value in the parent table:
+------------------------------------------------------------------------------
+Referential integrity. 
+
+
+Problem 3-4: Oracle SQL supports this with its COMMIT and ROLLBACK statements: 
+------------------------------------------------------------------------------
+Transaction integrity.
+
+
+Problem 3-5: If a DBMS permitted you to insert duplicate rows within a table, 
+it would not be supporting this: 
+------------------------------------------------------------------------------
+Entity integrity. 
+
+
+Problem 3-6: One way in which Oracle DBMS supports this is with its "on delete
+restrict" default for foreign keys -- that is, in Oracle, if you attempt to 
+delete a parent row with a primary key matching children rows with that value 
+for their foreign key, you are not permitted to do so: 
+------------------------------------------------------------------------------
+Referential integrity. 
+
+
+Problem 3-7: When a DBMS has automatic backup and recovery capabilities, it 
+could be said to be providing support for this (in terms of the desired
+property of durability): 
+------------------------------------------------------------------------------
+Transaction integrity. 
+
+
+Problem 3-8: Oracle is providing additional support for this with the check 
+clauses that one may use in a create table statement to restrict the allowed 
+values in a particular column, which it then uses to only permit insertions of 
+rows which have values for that column that satisfy the check clause. 
+------------------------------------------------------------------------------
+Domain integrity.
+
+
+Problem 3-9: The ACIDS property that is particularly about the database
+maintaining its consistent state *between* transactions:
+------------------------------------------------------------------------------
+Durability.
+
+
+Problem 3-10: The ACIDS property that you have when the concurrent execution
+of transactions is equivalent to the case where the transactions executed
+serially in some arbitrary order:
+------------------------------------------------------------------------------
+Serializability. 
+
+
+Problem 3-11: The ACIDS property that stipulates that a transaction has to 
+transform a database from one consistent state to another consistent state:
+------------------------------------------------------------------------------
+Consistency. 
+
+
+Problem 3-12: Which two ACIDS properties is it the responsibility of the 
+recovery subsystem to ensure?
+------------------------------------------------------------------------------
+Atomicity and durability.
+
+
+Problem 3-13: Which ACIDS property means that the data used during the 
+execution of a transaction until the first one is completed (at least, the 
+effect must be as if this was the case)?
+------------------------------------------------------------------------------
+Isolation.
+
+
+Problem 3-14: Which ACIDS property is the "all or nothing" property, requiring
+that either all operations/parts/steps of a transaction be completed in their
+entirety, or not performed at all?
+------------------------------------------------------------------------------
+Atomicity.

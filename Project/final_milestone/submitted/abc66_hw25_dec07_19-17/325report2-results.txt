@@ -1,0 +1,26 @@
+
+Fri Dec 07                                                             page    1
+                              Expired Vaccinations
+                         for pets enrolled in boarding
+                                  January 2019
+
+Section               Pet Name  Will arrive:  Vaccine    Last Vaccinated        
+--------------------- --------- ------------- ---------- ----------------       
+Deluxe (Fixed)....... Rum       Jan 28        distemper  Mar 23, 2015           
+                                Jan 28        rabies     Apr 12, 2015           
+                                                                                
+Deluxe (Not Fixed)... Gertrude  Jan 27        distemper  Jan 03, 2007           
+                                Jan 27        rabies     Dec 27, 2006           
+                      Mambo     Jan 29        distemper  Feb 09, 2014           
+                                Jan 29        rabies     Feb 09, 2014           
+                                                                                
+Regular (Fixed)...... Tofu      Jan 02        distemper  Jan 12, 2015           
+                                Jan 02        rabies     Jan 12, 2015           
+                                Jan 27        distemper  Jan 12, 2015           
+                                Jan 27        rabies     Jan 12, 2015           
+                      Rosie     Jan 28        distemper  Nov 02, 2012           
+                                Jan 28        rabies     Nov 02, 2012           
+                                                                                
+Regular (Not Fixed).. Chewy     Jan 29        distemper  Apr 04, 2011           
+                                Jan 29        rabies     Mar 23, 2011           
+                                                                                

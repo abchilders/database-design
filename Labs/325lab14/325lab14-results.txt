@@ -1,0 +1,99 @@
+Elizabeth Pineda
+Alex Childers
+
+Lab Problem 1
+
+EMPL_LAST_NAME  TO_CHAR(HIREDATE,'DAY')                                         
+--------------- ------------------------------------                            
+King            Sunday                                                          
+Jones           Tuesday                                                         
+Blake           Wednesday                                                       
+Raimi           Sunday                                                          
+Ford            Tuesday                                                         
+Smith           Monday                                                          
+Michaels        Wednesday                                                       
+Ward            Friday                                                          
+Martin          Saturday                                                        
+Scott           Saturday                                                        
+Turner          Sunday                                                          
+
+EMPL_LAST_NAME  TO_CHAR(HIREDATE,'DAY')                                         
+--------------- ------------------------------------                            
+Adams           Monday                                                          
+James           Tuesday                                                         
+Miller          Thursday                                                        
+
+14 rows selected.
+
+Lab Problem 2
+
+EMPL_LAST_NAME  ABBR                                                            
+--------------- ----------------                                                
+King            KING                                                            
+Jones           JONE                                                            
+Blake           BLAK                                                            
+Raimi           RAIM                                                            
+Ford            FORD                                                            
+Smith           SMIT                                                            
+Michaels        MICH                                                            
+Ward            WARD                                                            
+Martin          MART                                                            
+Scott           SCOT                                                            
+Turner          TURN                                                            
+
+EMPL_LAST_NAME  ABBR                                                            
+--------------- ----------------                                                
+Adams           ADAM                                                            
+James           JAME                                                            
+Miller          MILL                                                            
+
+14 rows selected.
+
+Lab Problem 3
+
+EMPL_LAST_NAME  HIREDATE  ELIG_DATE                                             
+--------------- --------- ---------                                             
+King            17-NOV-91 17-MAY-92                                             
+Jones           02-APR-91 02-OCT-91                                             
+Blake           01-MAY-91 01-NOV-91                                             
+Raimi           09-JUN-91 09-DEC-91                                             
+Ford            03-DEC-91 03-JUN-92                                             
+Smith           17-DEC-90 17-JUN-91                                             
+Michaels        20-FEB-91 20-AUG-91                                             
+Ward            22-FEB-91 22-AUG-91                                             
+Martin          28-SEP-91 28-MAR-92                                             
+Scott           09-NOV-91 09-MAY-92                                             
+Turner          08-SEP-91 08-MAR-92                                             
+
+EMPL_LAST_NAME  HIREDATE  ELIG_DATE                                             
+--------------- --------- ---------                                             
+Adams           23-SEP-91 23-MAR-92                                             
+James           03-DEC-91 03-JUN-92                                             
+Miller          23-JAN-92 23-JUL-92                                             
+
+14 rows selected.
+
+Lab Problem 4
+
+LENGTH(EMPL_LAST_NAME) LOWER(TO_CHAR(NEXT                                       
+---------------------- ------------------                                       
+                     4 21-nov-91                                                
+                     5 04-apr-91                                                
+                     5 02-may-91                                                
+                     5 13-jun-91                                                
+                     4 05-dec-91                                                
+                     5 20-dec-90                                                
+                     8 21-feb-91                                                
+                     4 28-feb-91                                                
+                     6 03-oct-91                                                
+                     5 14-nov-91                                                
+                     6 12-sep-91                                                
+
+LENGTH(EMPL_LAST_NAME) LOWER(TO_CHAR(NEXT                                       
+---------------------- ------------------                                       
+                     5 26-sep-91                                                
+                     5 05-dec-91                                                
+                     6 30-jan-92                                                
+
+14 rows selected.
+
